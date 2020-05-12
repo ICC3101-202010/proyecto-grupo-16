@@ -32,6 +32,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="APP.cs" />
+    <Compile Include="Profile.cs" />
+    <Compile Include="PlaylistS.cs" />
+    <Compile Include="Singer.cs" />
+    <Compile Include="Songs.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
