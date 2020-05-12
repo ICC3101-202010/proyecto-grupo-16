@@ -20,12 +20,13 @@ namespace ProyectodeCurso
             string nombreplaylistbuscada;
             string nombrecancionbuscada;
             string keyword;
+            string typekeyword;
+            APP app = new APP();
+            Profile profile = new Profile("profile");
 
             while (true)
             {
-                APP app = new APP();
-                Profile profile = new Profile("profile");
-                //Menu de usuario
+                //Menu de usuario (profile)
                 Console.WriteLine("Menú: Elija una opcion numerica");
                 Console.WriteLine(" ");
                 Console.WriteLine("1) Crear Playlist");
@@ -42,7 +43,9 @@ namespace ProyectodeCurso
                 Console.WriteLine(" ");
                 Console.WriteLine("7) Eliminar una playlist");
                 Console.WriteLine(" ");
-                Console.WriteLine("8) Salir de Spotify");
+                Console.WriteLine("8) Búsqueda general"); //keyword
+                Console.WriteLine(" ");
+                Console.WriteLine("9) Salir de Spotify");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
 
@@ -66,12 +69,12 @@ namespace ProyectodeCurso
                     tipo = Console.ReadLine();
                     //Console.ReadLine() le damos valores a los atributos
                     PlaylistS Playlist = new PlaylistS(profile.UserName1, nombreplaylistcancion, privacidadcancion, tipo);
+                    Console.WriteLine("Playlist " + Playlist.Name_PlaylistS1 + " creada");
+                    app.AddPlaylistStoDataBase(Playlist);
                 }
                 if (respuesta=="2")
                 {
-                    Console.WriteLine("Ingrese el nombre de la playlist:");
-                    nombreplaylistbuscada = Console.ReadLine();
-                    app.SearchPlaylistS(nombreplaylistbuscada);
+                    Console.WriteLine(app.PlaylistsIn());
                 }
                 if (respuesta=="3") //Añadir cancion
                 {
@@ -107,8 +110,16 @@ namespace ProyectodeCurso
                 }
                 if (respuesta=="8")
                 {
+                    Console.WriteLine("Ingrese su búsqueda");
+                    keyword = Console.ReadLine();
+                    Console.WriteLine("Ingrese en que categoría desea buscar (Música/Películas):");
+                    typekeyword = Console.ReadLine();
+                    Console.WriteLine(app.SearchKeyWord(keyword, typekeyword));
+                }
+                if (respuesta=="9")
+                {
                     Console.WriteLine("Saliendo del menú");
-                    break
+                    break;
                 }
 
 

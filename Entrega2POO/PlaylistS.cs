@@ -79,15 +79,19 @@ namespace ProyectodeCurso
 
         }
 
-        public string InfoPlaylistS()
+        public string InfoPlaylistSnSongs()
         {
-            Console.WriteLine("Creador :" + OwnerUser1 + " Nombre de la Playlist: " + Name_PlaylistS1);
+            Console.WriteLine("Creador : " + OwnerUser1 + " Nombre de la Playlist: " + Name_PlaylistS1);
             Console.WriteLine("Canciones: ");
             foreach (Songs song in ListS)
             {
                 return "Nombre: " + song.Name;
             }
             return "...";
+        }
+        public string InfoPlaylistS()
+        {
+            return "Creador :" + OwnerUser1 + " Nombre de la Playlist: " + Name_PlaylistS1;
         }
     }
 }

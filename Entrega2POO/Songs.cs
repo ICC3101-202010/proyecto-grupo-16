@@ -24,13 +24,13 @@ namespace ProyectodeCurso
 
 
         //Constructor
-        public Songs(string Name, string Album, string SongGenre, string Singer, string Composer, float RankingS, string YearPublishS, string Lyrics, int Likes,
+        public Songs(string Name, string Album, string SongGenre, Singer Singer, string Composer, float RankingS, string YearPublishS, string Lyrics, int Likes,
             int ReproductionsS, string TypeFile, string AudioQuality, string AlbumImage, string DurationS, string SongSize, int Downloads, bool CanDownload)
         {
             this.name = Name;
             this.album = Album;
             this.songgenre = SongGenre;
-            this.singer = Singer;
+            this.singer = Singer.NameSinger;
             this.composer = Composer;
             this.rankings = RankingS;
             this.yearpublishs = YearPublishS;
@@ -49,7 +49,8 @@ namespace ProyectodeCurso
         public string Name { get => name; set => name = value; }
         public string Album { get => album; set => album = value; }
         public string Songgenre { get => songgenre; set => songgenre = value; }
-        public string Singer { get => singer; set => singer = value; }
+        public string NameSinger { get => singer; set => singer = value; }
+
         public float Rankings { get => rankings; set => rankings = value; }
         public string Yearpublishs { get => yearpublishs; set => yearpublishs = value; }
         public string Lyrics { get => lyrics; set => lyrics = value; }
@@ -81,12 +82,12 @@ namespace ProyectodeCurso
         {
             if (candownload == true)
             {
-                return "Album: " + Album + " Nombre Canción: " + Name + " Artista: " + Singer + " Compositor: " + Composer + "Ranking: " + Rankings + " Duración: " + Durations + " Likes: " + Likes + " Descargas: " + DownloadS +
+                return "Album: " + Album + " Nombre Canción: " + Name + " Artista: " + NameSinger + " Compositor: " + Composer + "Ranking: " + Rankings + " Duración: " + Durations + " Likes: " + Likes + " Descargas: " + DownloadS +
                     " Reproducciones: " + reproductionss + " Descarga: Opción No Disponible";
             }
             else
             {
-                return "Album: " + Album + " Nombre Canción: " + Name + " Artista: " + Singer + " Compositor: " + Composer + "Ranking: " + Rankings + " Duración: " + Durations + " Likes: " + Likes + " Descargas: " + DownloadS +
+                return "Album: " + Album + " Nombre Canción: " + Name + " Artista: " + NameSinger + " Compositor: " + Composer + "Ranking: " + Rankings + " Duración: " + Durations + " Likes: " + Likes + " Descargas: " + DownloadS +
                     " Reproducciones: " + reproductionss + " Descarga: Opción No Disponible";
             }
         }

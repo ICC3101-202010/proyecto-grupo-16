@@ -19,6 +19,10 @@ namespace ProyectodeCurso
             this.stagename = StageName;
             this.rankingsinger = RankingSinger;
         }
+        public string NameSinger{ get => name; set => name = value; }
+        public string LastNameSinger { get => lastname; set => lastname = value; }
+        public string StageNameSinger { get => stagename; set => stagename = value; }
+        public float RankingSinger { get => rankingsinger; set => rankingsinger = value; }
 
 
         //Info del cantante

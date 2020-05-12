@@ -11,7 +11,10 @@ namespace ProyectodeCurso
     {
         protected List<Songs> DataBaseSongs = new List<Songs>();
         protected List<PlaylistS> DataBasePlaylistS = new List<PlaylistS> { };
-        protected List<Songs> KeyWordSongs = new List<Songs> { };
+        protected List<Singer> DataBaseSingers = new List<Singer>();
+        public List<Songs> KeyWordSongs = new List<Songs> { };
+        public List<PlaylistS> KeyWordPlaylistS = new List<PlaylistS> { };
+        public List<Singer> KeyWordSingers = new List<Singer> { };
 
         public APP()
         {
@@ -30,11 +33,11 @@ namespace ProyectodeCurso
         }
         public string SearchKeyWord(string Key, string type) //En teoria deberia entregar todas las canciones que tengan la coincidencia
         {
-            if (type == "Música")
+            if (type == "Música" || type == "Musica" || type == "musica" || type == "música")
             {
-                foreach (Songs song in DataBaseSongs)
+                foreach (Songs song in DataBaseSongs) //Busca Canciones
                 {
-                    if (Key == song.Name || Key == song.Album || Key == song.Songgenre || Key == song.Singer || Key == song.Composer || Key == song.Yearpublishs
+                    if (Key == song.Name || Key == song.Album || Key == song.Songgenre || Key == song.NameSinger || Key == song.Composer || Key == song.Yearpublishs
                     || Key == song.TypefileS)
                     {
                         KeyWordSongs.Add(song); //Agrega las canciones que cumplan la coincidencia con el keyword
@@ -44,7 +47,33 @@ namespace ProyectodeCurso
                 {
                     return song1.InfoSong(); //Retorna la info de las canciones de la lista (las que coinciden)
                 }
-                KeyWordSongs.Clear(); //Se resetea la lista para una nueva busqueda
+                foreach (PlaylistS playlist in DataBasePlaylistS) //Busca Playlists
+                {
+                    if (Key == playlist.Name_PlaylistS1 || Key == playlist.OwnerUser1 || Key == playlist.Type)
+                    {
+                        KeyWordPlaylistS.Add(playlist); //Agrega las playlist que cumplan la coincidencia con el keyword
+                    }
+                }
+                foreach (PlaylistS playlist in KeyWordPlaylistS)
+                {
+                    return playlist.InfoPlaylistS(); //Retorna la info de las playlist de la lista (las que coinciden)
+                }
+                foreach (Singer singer in DataBaseSingers) //Busca Cantantes
+                {
+                    if (Key == singer.NameSinger || Key == singer.LastNameSinger || Key == singer.StageNameSinger)
+                    {
+                        KeyWordSingers.Add(singer); //Agrega las playlist que cumplan la coincidencia con el keyword
+                    }
+                }
+                foreach (Singer singer in KeyWordSingers)
+                {
+                    return singer.InfoSinger(); //Retorna la info de los cantantes de la lista que coinciden con la busqueda
+                }
+
+
+                KeyWordSongs.Clear(); //Se resetea la lista para una nueva busqueda de Canciones
+                KeyWordPlaylistS.Clear(); ////Se resetea la lista para una nueva busqueda de Playlists
+                KeyWordSingers.Clear(); //Se resetea la lista para una nueva busqueda de Cantantes
             }
             if (type == "Películas") //Lo mismo pero con los métodos de las películas
             {
@@ -106,7 +135,14 @@ namespace ProyectodeCurso
         {
             DataBasePlaylistS.Add(playlist);
         }
-        
+        public int PlaylistsIn()
+        {
+            foreach (PlaylistS playlist in DataBasePlaylistS)
+            {
+                Console.WriteLine(playlist.InfoPlaylistS());
+            }
+            return DataBasePlaylistS.Count;
+        }
 
     }
 }
