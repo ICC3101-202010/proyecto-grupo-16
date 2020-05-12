@@ -41,6 +41,14 @@ namespace ProyectodeCurso
             FollowersPS.Add(profile);
         }
 
+        public void EliminateSong(Songs song)
+        {
+            if (ListS.Contains(song))
+            {
+                ListS.Remove(song);
+            }
+            Console.WriteLine("Canción eliminada");
+        }
 
         //Añadir cancion y establecer typefile
         public void AddListS(Songs song)

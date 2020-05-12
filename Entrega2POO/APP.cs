@@ -66,6 +66,13 @@ namespace ProyectodeCurso
         {
             DataBaseSongs.Add(song);
         }
+        public void EliminatePlaylist(PlaylistS playlist)
+        {
+            if(DataBasePlaylistS.Contains(playlist))
+            {
+                DataBasePlaylistS.Remove(playlist);
+            }
+        }
 
         //MB vi que ya están los métodos para guardar en la memoria y para verificar las canciones, asi que hago el resto de métodos
 
@@ -73,24 +80,33 @@ namespace ProyectodeCurso
 
 
         //Busca una playlist
-        public string SearchPlaylistS(PlaylistS playlist)
+        public string SearchPlaylistS(string NameP) //Arreglar Metodo
         {
-            if (playlist.PrivacyS1 == true) //Privada no se puede ver
+            foreach (PlaylistS playlist in DataBasePlaylistS)
             {
-                return "Lo lamentamos, esta Playlist es privada";
+                if (playlist.Name_PlaylistS1 == NameP)
+                {
+                    if (playlist.PrivacyS1 == true) //Privada no se puede ver
+                    {
+                        return "Lo lamentamos, esta Playlist es privada";
+                    }
+                    if (playlist.PrivacyS1 == false) //Publica se puede ber
+                    {
+                        return playlist.InfoPlaylistS();
+                    }
+                }
+                if (playlist.Name_PlaylistS1!=NameP)
+                {
+                    return "";
+                }
             }
-            if (playlist.PrivacyS1 == false) //Publica se puede ber
-            {
-                return playlist.InfoPlaylistS();
-            }
-            else
-            {
-                return "Esta playlist no existe"; //Si no es ninguna de las dos, la playlist no existe
-            }
+            return "";
         }
         public void AddPlaylistStoDataBase(PlaylistS playlist)
         {
             DataBasePlaylistS.Add(playlist);
         }
+        
+
     }
 }

@@ -12,88 +12,111 @@ namespace ProyectodeCurso
     {
         public static void Main(string[] args)
         {
-            //Creacion de la cancion
-            string nombrecancion;
-            string album;
-            string generocancion;
-            string cantante;
-            string compositor;
-            float rankings;
-            string añodepublicacions;
-            string letra;
-            int megusta;
-            int reproducciones;
-            string tipodearchivo;
-            string calidaddeaudio;
-            string imagenalum;
-            string duracions;
-            string tamañocancion;
-            int descargass;
-            bool descargapos;
-
-
-
-            string tipo;
-
-
-            //Admin
-            //Console.ReadLine() le damos valores a los atributos
-            Songs cancion = new Songs(nombrecancion, album, generocancion, cantante, compositor, rankings, añodepublicacions, letra, megusta, reproducciones, tipodearchivo, calidaddeaudio,
-                imagenalum, duracions, tamañocancion, descargass, descargapos);
-
-
-            //Admin
-            //Creacion cantante
-            string nombrecantante;
-            string apellidocantante;
-            string nombreartistico;
-            int rankingcantante;
-            //Console.ReadLine() le damos valores a los atributos
-            Singer cantante1 = new Singer(nombrecantante, apellidocantante, nombreartistico, rankingcantante);
-
-
-            //Usuario
-            //Creacion de la playlist
-            string Usuariocreador;
             string nombreplaylistcancion;
             bool privacidadcancion;
-            //Console.ReadLine() le damos valores a los atributos
-            PlaylistS playlists1 = new PlaylistS(Usuariocreador, nombreplaylistcancion, privacidadcancion, tipo);
+            string privacidadcancion1;
+            string tipo;
+            string respuesta;
+            string nombreplaylistbuscada;
+            string nombrecancionbuscada;
+            string keyword;
 
-
-            //Usuario
-            //Añadir cancion a playlist
-            playlists1.AddListS(cancion);
-
-
-
-            //Usuario
-            //Profile "profile1" sigue a la playlist1 publica
-            Profile profile1 = new Profile();
-            if (playlists1.PrivacyS1 == false)
+            while (true)
             {
-                playlists1.AddFollowersPS(profile1);
-                profile1.AddPlaylistFollowingS(playlists1);
+                APP app = new APP();
+                Profile profile = new Profile("profile");
+                //Menu de usuario
+                Console.WriteLine("Menú: Elija una opcion numerica");
+                Console.WriteLine(" ");
+                Console.WriteLine("1) Crear Playlist");
+                Console.WriteLine(" ");
+                Console.WriteLine("2) Ver Playlists");
+                Console.WriteLine(" ");
+                Console.WriteLine("3) Añadir Canción a Playlist");
+                Console.WriteLine(" ");
+                Console.WriteLine("4) Buscar Canción");
+                Console.WriteLine(" ");
+                Console.WriteLine("5) Buscar Canción dentro de una Playlist");
+                Console.WriteLine(" ");
+                Console.WriteLine("6) Eliminar una cancion de la playlist");
+                Console.WriteLine(" ");
+                Console.WriteLine("7) Eliminar una playlist");
+                Console.WriteLine(" ");
+                Console.WriteLine("8) Salir de Spotify");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+
+                respuesta = Console.ReadLine();
+                if (respuesta == "1")
+                {
+                    //Creacion de la playlist
+                    Console.WriteLine("Nombre de la playlist");
+                    nombreplaylistcancion = Console.ReadLine();
+                    Console.WriteLine("Privacidad:");
+                    privacidadcancion1 = Console.ReadLine();
+                    if (privacidadcancion1=="Privada")
+                    {
+                        privacidadcancion = true;
+                    }
+                    else //(privacidadcancion1=="Publica")
+                    {
+                        privacidadcancion = false;
+                    }
+                    Console.WriteLine("Tipo de Playlist");
+                    tipo = Console.ReadLine();
+                    //Console.ReadLine() le damos valores a los atributos
+                    PlaylistS Playlist = new PlaylistS(profile.UserName1, nombreplaylistcancion, privacidadcancion, tipo);
+                }
+                if (respuesta=="2")
+                {
+                    Console.WriteLine("Ingrese el nombre de la playlist:");
+                    nombreplaylistbuscada = Console.ReadLine();
+                    app.SearchPlaylistS(nombreplaylistbuscada);
+                }
+                if (respuesta=="3") //Añadir cancion
+                {
+                    Console.WriteLine("Ingrese la playlist");
+                    nombreplaylistbuscada = Console.ReadLine();
+                    //foreach()
+                    //Buscar una cancion "cancion" en una playlist "playlist1"
+                    //playlists1.SongSearchinPlaylist(cancion);
+                }
+
+                if (respuesta=="4")
+                {
+                    Console.WriteLine("Ingrese el nombre de la cancion:");
+                    nombrecancionbuscada = Console.ReadLine();
+                    //app.SearchSong(Song); ----> Arreglar, Metodo que busque el nombre de una cancion para agregarla
+                    
+                }
+                if (respuesta=="5") //Buscar una cancion "cancion" en una playlist "playlist1"
+                {
+                    //playlists1.SongSearchinPlaylist(cancion);
+
+                }
+
+                if (respuesta=="6")//Eliminar una cancion "song" de la "playlist1"
+                {
+                    //playlist1.EliminateSong(song)
+                }
+                if (respuesta=="7")
+                {
+                    Console.WriteLine("Ingrese el nombre de la playlist");
+                    nombreplaylistbuscada = Console.ReadLine();
+                    //app.EliminatePlaylist(nombreplaylistbuscada-->playlist)
+                }
+                if (respuesta=="8")
+                {
+                    Console.WriteLine("Saliendo del menú");
+                    break
+                }
+
+
+
+
+
+
             }
-
-
-            //Usuario
-            //Buscar una cancion "cancion" en la database
-            APP app = new APP();
-            app.SearchSong(cancion);
-
-
-
-            //Buscar una cancion "cancion" en una playlist "playlist1"
-            playlists1.SongSearchinPlaylist(cancion);
-
-
-            //Buscar una playlist
-
-
-
-
-
         }
     }
 }

@@ -9,6 +9,7 @@ namespace ProyectodeCurso
 {
     public class Profile
     {
+        private string UserName;
         //Listas
         List<PlaylistS> PlaylistS = new List<PlaylistS> { };
         List<Songs> FavSong = new List<Songs> { };
@@ -40,8 +41,10 @@ namespace ProyectodeCurso
 
 
 
-        public Profile()
+        public Profile(string username)
         {
+            this.UserName = username;
         }
+        public string UserName1 { get => UserName; set => UserName = value; }
     }
 }
