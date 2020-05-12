@@ -18,6 +18,7 @@ namespace ProyectodeCurso
 
         public APP()
         {
+
         }
         //Buscar cancion
         public string SearchSong(Songs song)
@@ -30,6 +31,14 @@ namespace ProyectodeCurso
             {
                 return "Canción no encontrada";
             }
+        }
+        public int SongTime(Songs song) //Calculo del tiempo de la cancion
+        {
+
+        }
+        public string SongsDownloaded() //Canciones descargadas
+        {
+
         }
         public string SearchKeyWord(string Key, string type) //En teoria deberia entregar todas las canciones que tengan la coincidencia
         {
