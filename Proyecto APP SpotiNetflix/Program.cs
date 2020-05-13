@@ -744,14 +744,16 @@ namespace Proyecto_APP_SpotiNetflix
                                                 {
                                                     break;
                                                 }
-                                                
+
 
                                             }
                                             PlaylistS playlistS = new PlaylistS(profile.Email1, NamePlaylist, profile.Privacy1, FileType);
-                                            
+
                                             Console.WriteLine("Playlist creada con exito!\n");
 
                                             profile.AddPlaylistS(playlistS);
+                                            
+                                            
 
 
                                         }

@@ -541,15 +541,15 @@ namespace Proyecto_APP_SpotiNetflix
             //Error de logeo (para contraseña email no valido, o contraseña no valida c/r a un email correcto)
             
         }
-        public void AddPlaylistMToDatabaseM(List<PlaylistM> playlistM)
+        public void AddPlaylistMToDatabase(List<PlaylistM> playlistM)
         {
             DataBasePlaylistM.Add(playlistM);
         }
-        public void AddPlaylistMToDatabaseM(List<PlaylistS> playlistS)
+        public void AddPlaylistSToDatabase(List<PlaylistS> playlistS)
         {
             DataBasePlaylistS.Add(playlistS);
         }
-
+       
 
     }
 
