@@ -751,6 +751,8 @@ namespace Proyecto_APP_SpotiNetflix
                                             
                                             Console.WriteLine("Playlist creada con exito!\n");
 
+                                            profile.AddPlaylistS(playlistS);
+
 
                                         }
                                             
