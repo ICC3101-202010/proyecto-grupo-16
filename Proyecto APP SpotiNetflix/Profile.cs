@@ -23,6 +23,8 @@ namespace Proyecto_APP_SpotiNetflix
         List<PlaylistS> PlaylistFollowingS = new List<PlaylistS> { };
         List<Singer> SingerFollowing = new List<Singer> { };
 
+        
+
         List<WorkerMovie> WorkerMovieFollowing = new List<WorkerMovie>();
 
         protected List<Movies> KeyWordMovies = new List<Movies> { };
@@ -71,6 +73,27 @@ namespace Proyecto_APP_SpotiNetflix
         public void AddSingerFollowing(Singer singer)
         {
             SingerFollowing.Add(singer);
+        }
+
+
+        public void AddFavMovie(Movies movie)
+        {
+            FavMovies.Add(movie);
+        }
+
+        public void AddPlaylistM(PlaylistM playlist)
+        {
+            PlaylistM.Add(playlist);
+        }
+
+        public void AddPlaylistFollowingM(PlaylistM playlist)
+        {
+            PlaylistFollowingM.Add(playlist);
+        }
+
+        public void AddSingerFollowing(WorkerMovie worker)
+        {
+            WorkerMovieFollowing.Add(worker);
         }
 
 
