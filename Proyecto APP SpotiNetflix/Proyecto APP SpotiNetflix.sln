@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto APP SpotiNetflix", "Proyecto APP SpotiNetflix.csproj", "{BA96D16C-FD5B-40C9-8824-A06FCE749DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA96D16C-FD5B-40C9-8824-A06FCE749DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA96D16C-FD5B-40C9-8824-A06FCE749DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA96D16C-FD5B-40C9-8824-A06FCE749DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA96D16C-FD5B-40C9-8824-A06FCE749DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C43A1CB3-F2E6-42FA-82A1-389FBD5191D6}
+	EndGlobalSection
+EndGlobal
