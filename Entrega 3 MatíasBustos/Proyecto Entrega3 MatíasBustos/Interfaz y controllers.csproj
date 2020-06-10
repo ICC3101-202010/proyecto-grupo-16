@@ -110,12 +110,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Models %28Proyecto 2%29\Models %28Proyecto 2%29.csproj">
-      <Project>{1bb5ab84-6d73-4bf6-abc2-78ded6814ef0}</Project>
-      <Name>Models %28Proyecto 2%29</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="AxWMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -145,6 +139,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models %28Proyecto 2%29\Models %28Proyecto 2%29.csproj">
+      <Project>{1bb5ab84-6d73-4bf6-abc2-78ded6814ef0}</Project>
+      <Name>Models %28Proyecto 2%29</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

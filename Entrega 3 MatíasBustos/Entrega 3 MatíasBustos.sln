@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaz y controllers", "Proyecto Entrega3 MatíasBustos\Interfaz y controllers.csproj", "{9CEF94D2-C0B1-48F1-B5C8-A349D83F6336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models (Proyecto 2)", "..\Proyecto Entrega 3 MatíasBustos\Models (Proyecto 2)\Models (Proyecto 2).csproj", "{1BB5AB84-6D73-4BF6-ABC2-78DED6814EF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models (Proyecto 2)", "Models (Proyecto 2)\Models (Proyecto 2).csproj", "{1BB5AB84-6D73-4BF6-ABC2-78DED6814EF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
