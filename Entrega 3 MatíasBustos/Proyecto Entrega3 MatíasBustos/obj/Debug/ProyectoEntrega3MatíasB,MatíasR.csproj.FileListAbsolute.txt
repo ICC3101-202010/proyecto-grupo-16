@@ -1,0 +1,10 @@
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.exe.config
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.Properties.Resources.resources
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\source\repos\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources

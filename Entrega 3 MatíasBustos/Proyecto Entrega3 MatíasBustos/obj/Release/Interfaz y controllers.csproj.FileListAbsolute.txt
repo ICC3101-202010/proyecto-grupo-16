@@ -1,0 +1,31 @@
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Release\ProyectoEntrega3MatíasB,MatíasR.exe.config
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Release\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Release\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Release\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Release\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Release\ProyectoEntrega3MatíasB_MatíasR.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Release\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Release\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Release\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Release\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Release\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Release\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Release\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Release\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Release\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Release\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.pdb
