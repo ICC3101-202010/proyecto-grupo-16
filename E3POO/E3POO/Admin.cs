@@ -27,7 +27,7 @@ namespace E3POO
 
             //Agrega Artistas a lstArtistas
             string listadoArtistas = Properties.Resources.artistas.ToString();
-            listado_Artistas = listadoArtistas.Split(new[] { "\n\r" }, StringSplitOptions.RemoveEmptyEntries);
+            listado_Artistas = listadoArtistas.Split(new[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
             foreach(var artista in listado_Artistas)
             {
                 lstArtistas.Items.Add(artista);
@@ -35,7 +35,7 @@ namespace E3POO
 
             //Agrega Actores a lstVerActores
             string listadoActores = Properties.Resources.actores.ToString();
-            listado_Actores = listadoActores.Split(new[] { "\n\r" }, StringSplitOptions.RemoveEmptyEntries);
+            listado_Actores = listadoActores.Split(new[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
             foreach (var actor in listado_Actores)
             {
                 lstVerActores.Items.Add(actor);
@@ -43,7 +43,7 @@ namespace E3POO
 
             //Agrega usuario a lstUsuarios
             string listadoUsuarios = Properties.Resources.usuarios.ToString();
-            listado_Usuarios = listadoUsuarios.Split(new[] { "\n\r" }, StringSplitOptions.RemoveEmptyEntries);
+            listado_Usuarios = listadoUsuarios.Split(new[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
             foreach (var usuario in listado_Usuarios)
             {
                 lstUsuarios.Items.Add(usuario);
@@ -51,7 +51,7 @@ namespace E3POO
 
             //Agrega Cancion a lstCanciones
             string listadoCanciones = Properties.Resources.canciones.ToString();
-            listado_Canciones = listadoCanciones.Split(new[] { "\n\r" }, StringSplitOptions.RemoveEmptyEntries);
+            listado_Canciones = listadoCanciones.Split(new[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
             foreach (var cancion in listado_Canciones)
             {
                 lstCanciones.Items.Add(cancion);
@@ -59,7 +59,7 @@ namespace E3POO
 
             //Agrega Playlist a lstVerPlaylists
             string listadoPlaylists = Properties.Resources.playlists.ToString();
-            listado_Playlists = listadoPlaylists.Split(new[] { "\n\r" }, StringSplitOptions.RemoveEmptyEntries);
+            listado_Playlists = listadoPlaylists.Split(new[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
             foreach (var playlist in listado_Playlists)
             {
                 lstVerPlaylists.Items.Add(playlist);
@@ -67,7 +67,7 @@ namespace E3POO
 
             //Agrega Pelicula a lstPeliculas
             string listadoPeliculas = Properties.Resources.peliculas.ToString();
-            listado_Peliculas = listadoPeliculas.Split(new[] { "\n\r" }, StringSplitOptions.RemoveEmptyEntries);
+            listado_Peliculas = listadoPeliculas.Split(new[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
             foreach (var pelicula in listado_Peliculas)
             {
                 lstPeliculas.Items.Add(pelicula);
@@ -239,7 +239,7 @@ namespace E3POO
 
         private void btnCargarArtista1_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(@"C:\Users\Matias Rojas\source\repos\E3POO\E3POO\Resources\artistas.txt", true);
+            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\artistas.txt", true);
             sw.WriteLine("\n"+ "\n" + "Nombre: "+txtNombreArtista.Text+ "Fecha de Nacimiento: "+txtDateArtista.Text);
             sw.Close();
             lstArtistas.Items.Add("Nombre: " + txtNombreArtista.Text + "Fecha de Nacimiento: " + txtDateArtista.Text);
@@ -251,7 +251,7 @@ namespace E3POO
         //Actores
         private void btnCargarArtista_Click(object sender, EventArgs e) //Cargar Actor
         {
-            StreamWriter sw = new StreamWriter(@"C:\Users\Matias Rojas\source\repos\E3POO\E3POO\Resources\actores.txt", true);
+            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\actores.txt", true);
             sw.WriteLine("\n" + "\n" + "Nombre: " +txtNombreActor.Text+" Fecha de Nacimiento: "+txtDateActor.Text);
             sw.Close();
             lstVerActores.Items.Add("Nombre: " + txtNombreActor.Text + " Fecha de Nacimiento: " + txtDateActor.Text);
@@ -267,7 +267,7 @@ namespace E3POO
         //Usuarios
         private void btnCargarUsuario_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(@"C:\Users\Matias Rojas\source\repos\E3POO\E3POO\Resources\usuarios.txt", true);
+            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\usuarios.txt", true);
             sw.WriteLine("\n" + "\n"+"Nombre: " +txtNombreUsuario.Text+" Mail: "+txtMailUsuario.Text);
             sw.Close();
             lstUsuarios.Items.Add("Nombre: " + txtNombreUsuario.Text + " Mail: " + txtMailUsuario.Text);
@@ -283,7 +283,7 @@ namespace E3POO
         //Cancion
         private void button2_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(@"C:\Users\Matias Rojas\source\repos\E3POO\E3POO\Resources\canciones.txt", true);
+            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\canciones.txt", true);
             sw.WriteLine("\n" +"\n"+ "Nombre: " +txtNombreCancion.Text+ " Album: " + txtAlbumCancion.Text+" Artista: "+txtArtistaCancion.Text+" Fecha de Lanzamiento: "+txtDateCancion.Text);
             sw.Close();
             lstCanciones.Items.Add("Nombre: " + txtNombreCancion.Text + " Album: " + txtAlbumCancion.Text + " Artista: " + txtArtistaCancion.Text + " Fecha de Lanzamiento: " + txtDateCancion.Text);
@@ -296,8 +296,8 @@ namespace E3POO
         //Playlists
         private void btnCargarPlaylist_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(Properties.Resources.playlists, true);//fdlkjfldjgldfkjgfdlkgjfdlkgjflkgjflkgjfdlkgjflkjgfdlkjgdflkjg
-            sw.WriteLine("\n" + "\n" + "Nombre: " +txtNombrePlaylist.Text+ "Canciones: "+txtCancionesInPlaylist.Text);
+            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\playlists.txt", true);//fdlkjfldjgldfkjgfdlkgjfdlkgjflkgjflkgjfdlkgjflkjgfdlkjgdflkjg
+            sw.WriteLine("\n" + "\n" + "Nombre: " +txtNombrePlaylist.Text+ " Canciones: "+txtCancionesInPlaylist.Text);
             sw.Close();
             lstCanciones.Items.Add(txtNombreCancion.Text);
             txtNombrePlaylist.Clear();
@@ -332,7 +332,7 @@ namespace E3POO
         //Peliculas
         private void btnCargarPelicula_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(@"C:\Users\Matias Rojas\source\repos\E3POO\E3POO\Resources\peliculas.txt", true);
+            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\peliculas.txt", true);
             sw.WriteLine("\n" + "\n" + "Nombre: " +txtNombrePelicula.Text+" Actor Principal: "+txtActorPelicula.Text+" Fecha Lanzamiento: "+txtDatePelicula.Text);
             sw.Close();
             lstPeliculas.Items.Add("Nombre: " + txtNombrePelicula.Text + " Actor Principal: " + txtActorPelicula.Text + " Fecha Lanzamiento: " + txtDatePelicula.Text);

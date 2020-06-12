@@ -159,5 +159,23 @@
   <ItemGroup>
     <None Include="Resources\peliculas.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\archivostxt\canciones.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\archivostxt\peliculas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\archivostxt\playlists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\archivostxt\usuarios.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\archivostxt\actores.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\archivostxt\artistas.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

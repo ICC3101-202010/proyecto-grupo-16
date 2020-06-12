@@ -61,12 +61,10 @@ namespace E3POO.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 
-        ///as
+        ///   Busca una cadena traducida similar a Nombre: Brad Pitt Fecha de Nacimiento: 18/12/1963
         ///
-        ///Brad Pitt
         ///
-        ///asd
+        ///Nombre: aa Fecha de Nacimiento: aa
         ///.
         /// </summary>
         internal static string actores {
@@ -86,16 +84,7 @@ namespace E3POO.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 
-        ///asas
-        ///Se eliminarÃ¡ a: 
-        ///Se eliminarÃ¡ a: 
-        ///Se eliminarÃ¡ a: 
-        ///
-        ///Caca
-        ///Se eliminarÃ¡ a: 
-        ///Se eliminarÃ¡ a: 
-        ///Se eliminarÃ¡ a: 
+        ///   Busca una cadena traducida similar a Gustavo Cerati
         ///.
         /// </summary>
         internal static string artistas {
@@ -105,12 +94,7 @@ namespace E3POO.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 
-        ///
-        ///Nombre: a Album: a Artista: a Fecha de Publicacion: a
-        ///
-        ///Nombre: a Album: a Artista: s Fecha de Publicacion: asd
-        ///.
+        ///   Busca una cadena traducida similar a Nombre: Puente Album: Bocanada Artista: Gustavo Cerati Fecha de Lanzamiento: 1999.
         /// </summary>
         internal static string canciones {
             get {
@@ -129,7 +113,9 @@ namespace E3POO.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Nombre: Guerra Mundial Z Actor Principal: Brad Pitt Fecha Lanzamiento: 2013
+        ///
+        ///.
         /// </summary>
         internal static string peliculas {
             get {
@@ -138,11 +124,7 @@ namespace E3POO.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 
-        ///Nombre: aCanciones: a
-        ///
-        ///Nombre: Canciones: 
-        ///.
+        ///   Busca una cadena traducida similar a .
         /// </summary>
         internal static string playlists {
             get {
@@ -171,7 +153,9 @@ namespace E3POO.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Nombre: Matias Rojas Mail: mfrojas@miuandes.cl
+        ///
+        ///.
         /// </summary>
         internal static string usuarios {
             get {
