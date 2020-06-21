@@ -91,10 +91,7 @@ namespace E3POO.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 
-        ///
-        ///
-        ///Nombre: Yellow Album: Parachutes Artista: Coldplay Fecha de Lanzamiento: 2000
+        ///   Busca una cadena traducida similar a Nombre: Yellow Album: Parachutes Artista: Coldplay Fecha de Lanzamiento: 2000
         ///
         ///
         ///Nombre: Puente Album: Bocanada Artista: Gustao Cerati Fecha de Lanzamiento: 1999
@@ -103,12 +100,25 @@ namespace E3POO.Properties {
         ///Nombre: Profugos Album: Obras Cumbres Artista: Soda Stereo Fecha de Lanzamiento: 1986
         ///
         ///
-        ///Nombre: Profugos Album: Obras Cumbres Artista: Soda Stereo Fecha de Lanzamiento: 1986
+        ///Nombre: En la Ciudad de la Furia Album: Obras Cumbres Artista: Soda Stereo Fecha de Lanzamiento: 1980
+        ///
+        ///
+        ///Nombre: Crimen Album: fsafds Artista: Gustavo Cerati Fecha de Lanzamiento: gdfgdf
         ///.
         /// </summary>
         internal static string canciones {
             get {
                 return ResourceManager.GetString("canciones", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_Dia_spotflix {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de Dia spotflix", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -126,6 +136,8 @@ namespace E3POO.Properties {
         ///   Busca una cadena traducida similar a Yellow - Coldplay
         ///Puente - Gustavo Cerati
         ///Profugos - Soda Stereo
+        ///En la Ciudad de la Furia - Soda Stereo
+        ///Crimen - Gustavo Cerati
         ///.
         /// </summary>
         internal static string NombreCancion {
@@ -136,6 +148,12 @@ namespace E3POO.Properties {
         
         /// <summary>
         ///   Busca una cadena traducida similar a Nombre: Guerra Mundial Z Actor Principal: Brad Pitt Fecha Lanzamiento: 2013
+        ///
+        ///
+        ///Nombre: Elon Musk Reacciona al Falcon Actor Principal: Elon Musk Fecha Lanzamiento: 2020
+        ///
+        ///
+        ///Nombre: Sacala de la Estufa Actor Principal: NiÃ±a Fecha Lanzamiento: 2020
         ///.
         /// </summary>
         internal static string peliculas {
@@ -179,6 +197,9 @@ namespace E3POO.Properties {
         /// <summary>
         ///   Busca una cadena traducida similar a Nombre: Matias Rojas Mail: mfrojas@miuandes.cl
         ///
+        ///
+        ///
+        ///Nombre: Admin Mail: admin@spotflix.cl
         ///.
         /// </summary>
         internal static string usuarios {

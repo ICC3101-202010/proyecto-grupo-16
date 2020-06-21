@@ -1,0 +1,87 @@
+Este el manual del magnífico
+usuario de Spotflix para la versión 2.0
+
+Al momento de abrir la aplicación el usuario podrá ver 
+el "Menú Usuario Spotflix" el cual cuenta con una imagen
+inactiva mostrando el logo de la aplicación. Aparecerán 
+dos botones, cada uno con un nombre incluido el cuál 
+advierte que opciones se podrán ver luego de pulsarlos, 
+el botón Canciones abrirá un Forms dedicado a la división 
+de canciones, el botón Películas abrirá un Forms dedicado 
+a la división de películas. Además en la esquina inferior
+derecha hay un botón con la etiqueta Salir, el cual
+directamente cierra la aplicación.
+
+Si se pulsa el botón D:
+- Se activará el modo Día de la aplicación, 
+con colores y fondos más claros.
+Si se pulsa el botón N:
+- Se activará el modo Noche de la aplicacion, 
+con colores y fondos más oscuros.
+
+
+Si se pulsa el botón Películas:
+- Se abrirá un forms llamado Movies bastante sencillo en donde se podrá
+ver un panel superior con el botón Cargar, el cual al presionarlo abre 
+un fileDialog para poder seleccionar un vídeo en formato mp4 y lo reproduce 
+instantáneamente. Además hay una etiqueta debajo del botón Cargar que 
+muestra la ruta del archivo. Las opciones de pausar, adelantar, volumen,
+vienen integradas. El botón Salir ubicado en la esquina inferior izquierda 
+directamente cierra el forms para volver al menú principal.
+
+Si se pulsa el botón Canciones:
+- Se abrirá un Forms llamado Songs bastante sencillo. Dentro de éste se puede 
+ver el menú Reproductor, aquí se logra ver el reproductor mp3 de canciones, 
+con los botones, play, parar y opciones de sonido integradas.
+
+
+Dentro de Canciones:
+
+Para cargar canciones: Se utiliza el botón en rojo Cargar, ubicado sobre el 
+reproductor mp3, se puede seleccionar una cancion (solo una, si se quiere 
+cargar otra cancion se vuelve a pulsar) y ésta se popula al ListBox integrado 
+en la izquierda del Forms, aqui se puede ver la descripcion de la ruta y el 
+tipo de archivo. Existen dos botones más, encargados de abrir panels con mas 
+opciones, estos son Búsquedas y Playlists. 
+
+Para ir al menú de búsquedas: Se utiliza el botón Búsqueda, ubicado en la esquina 
+inferior izquierda. Es el encargado de abrir el panel de búsqueda, en el cual 
+aparecerá un cuadro donde se puede colocar, ya sea, la categoría, artistas, 
+canciones, ranking, etc de la clase Songs. Este buscará dentro de la base de 
+datos creada por el administrador coincidencias con el "key" ingresado.
+
+Para ir al menú de Playlists: Se utiliza el botón Playlists, ubicado en la 
+esquina inferior izquierda. Es el encargado de abrir el panel de playlists, 
+en el cual se verá el reproductor mp3 con los botones, play, pausa, detener y 
+opciones de volumen integrados.
+
+Dentro de Playlists, para Cargar canciones: Se utiliza el botón CARGAR ubicado 
+debajo del reproductor, éste abrirá un FileDialog donde se podrá elegir un 
+paquete de canciones para luego reproducirlos.
+Dentro de Playlists, para eliminar una canción: Se utiliza el botón 
+ELIMINAR CANCIÓN que eliminar el archivo dentro del listbox, y por 
+consiguiente de la playlist.
+
+Dentro de Playlists, para Buscar una Playlist: Se utiliza el botón 
+BUSCAR PLAYLIST ubicado en la esquina superior derecha, el cual se 
+encargar de abrir un FileDialog con carpetas de playlists y poder
+cargarlas al listbox para reproducirlas.
+Para salir del forms Songs: Se utiliza el botón Salir ubicado en 
+la esquina inferior derecha, al pular este botón directamente se sale del
+forms Songs para volver al menú principal.
+
+
+Dentro de Películas:
+
+Para reproducir una película: Se utiliza el botón reproducir en conjunto
+con el combobox, en éste se mostrarán las películas disponibles, puesto 
+que no se pueden descargar.
+Para volver el menú inicial: Se utliza el botón volver ubicado en la esquina
+superior derecha, éste cerrará el formulario.
+
+
+
+Matías Rojas G. Editor y fundador de SpotFlix.
+
+
+

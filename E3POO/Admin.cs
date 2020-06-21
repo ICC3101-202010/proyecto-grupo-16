@@ -94,6 +94,7 @@ namespace E3POO
             if (txtBoxNUser.Text == "Admin" && Password.Text == "1234")
             {
                 panelMenuAdmin.Visible = true;
+
             }
             else
             {
@@ -129,7 +130,7 @@ namespace E3POO
 
         private void btnSalirAdm_Click(object sender, EventArgs e)
         {
-            panelMenuAdmin.Visible = false;
+            this.Close();
         }
 
         private void btnVerCanciones_Click(object sender, EventArgs e)

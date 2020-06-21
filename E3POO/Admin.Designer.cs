@@ -266,7 +266,7 @@
             this.panelMenuAdmin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMenuAdmin.Location = new System.Drawing.Point(0, 0);
             this.panelMenuAdmin.Name = "panelMenuAdmin";
-            this.panelMenuAdmin.Size = new System.Drawing.Size(685, 411);
+            this.panelMenuAdmin.Size = new System.Drawing.Size(686, 414);
             this.panelMenuAdmin.TabIndex = 9;
             this.panelMenuAdmin.Visible = false;
             // 
@@ -287,15 +287,15 @@
             this.panelVerCanciones.Controls.Add(this.label11);
             this.panelVerCanciones.Controls.Add(this.lstCanciones);
             this.panelVerCanciones.Controls.Add(this.btnSalirPanelVerCanciones);
-            this.panelVerCanciones.Location = new System.Drawing.Point(3, 1);
+            this.panelVerCanciones.Location = new System.Drawing.Point(0, 0);
             this.panelVerCanciones.Name = "panelVerCanciones";
-            this.panelVerCanciones.Size = new System.Drawing.Size(601, 348);
+            this.panelVerCanciones.Size = new System.Drawing.Size(689, 415);
             this.panelVerCanciones.TabIndex = 23;
             this.panelVerCanciones.Visible = false;
             // 
             // txtDateCancion
             // 
-            this.txtDateCancion.Location = new System.Drawing.Point(468, 91);
+            this.txtDateCancion.Location = new System.Drawing.Point(570, 92);
             this.txtDateCancion.Name = "txtDateCancion";
             this.txtDateCancion.Size = new System.Drawing.Size(100, 20);
             this.txtDateCancion.TabIndex = 13;
@@ -304,7 +304,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label25.Location = new System.Drawing.Point(351, 95);
+            this.label25.Location = new System.Drawing.Point(452, 99);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(110, 13);
             this.label25.TabIndex = 12;
@@ -313,7 +313,7 @@
             // btnEliminarCancion
             // 
             this.btnEliminarCancion.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarCancion.Location = new System.Drawing.Point(455, 282);
+            this.btnEliminarCancion.Location = new System.Drawing.Point(455, 359);
             this.btnEliminarCancion.Name = "btnEliminarCancion";
             this.btnEliminarCancion.Size = new System.Drawing.Size(93, 23);
             this.btnEliminarCancion.TabIndex = 11;
@@ -322,7 +322,7 @@
             // 
             // txtAlbumCancion
             // 
-            this.txtAlbumCancion.Location = new System.Drawing.Point(468, 66);
+            this.txtAlbumCancion.Location = new System.Drawing.Point(570, 65);
             this.txtAlbumCancion.Name = "txtAlbumCancion";
             this.txtAlbumCancion.Size = new System.Drawing.Size(100, 20);
             this.txtAlbumCancion.TabIndex = 10;
@@ -331,7 +331,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label24.Location = new System.Drawing.Point(422, 69);
+            this.label24.Location = new System.Drawing.Point(523, 72);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(39, 13);
             this.label24.TabIndex = 9;
@@ -339,7 +339,7 @@
             // 
             // txtArtistaCancion
             // 
-            this.txtArtistaCancion.Location = new System.Drawing.Point(468, 40);
+            this.txtArtistaCancion.Location = new System.Drawing.Point(570, 39);
             this.txtArtistaCancion.Name = "txtArtistaCancion";
             this.txtArtistaCancion.Size = new System.Drawing.Size(100, 20);
             this.txtArtistaCancion.TabIndex = 8;
@@ -348,7 +348,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label23.Location = new System.Drawing.Point(422, 43);
+            this.label23.Location = new System.Drawing.Point(523, 49);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(39, 13);
             this.label23.TabIndex = 7;
@@ -358,7 +358,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label22.Location = new System.Drawing.Point(414, 18);
+            this.label22.Location = new System.Drawing.Point(517, 21);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(47, 13);
             this.label22.TabIndex = 6;
@@ -366,7 +366,7 @@
             // 
             // txtNombreCancion
             // 
-            this.txtNombreCancion.Location = new System.Drawing.Point(468, 15);
+            this.txtNombreCancion.Location = new System.Drawing.Point(570, 11);
             this.txtNombreCancion.Name = "txtNombreCancion";
             this.txtNombreCancion.Size = new System.Drawing.Size(100, 20);
             this.txtNombreCancion.TabIndex = 5;
@@ -374,7 +374,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(475, 123);
+            this.button2.Location = new System.Drawing.Point(577, 123);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 23);
             this.button2.TabIndex = 4;
@@ -408,7 +408,7 @@
             this.lstCanciones.FormattingEnabled = true;
             this.lstCanciones.Location = new System.Drawing.Point(6, 159);
             this.lstCanciones.Name = "lstCanciones";
-            this.lstCanciones.Size = new System.Drawing.Size(443, 147);
+            this.lstCanciones.Size = new System.Drawing.Size(443, 225);
             this.lstCanciones.TabIndex = 1;
             // 
             // btnSalirPanelVerCanciones
@@ -416,7 +416,7 @@
             this.btnSalirPanelVerCanciones.BackColor = System.Drawing.Color.Red;
             this.btnSalirPanelVerCanciones.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalirPanelVerCanciones.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSalirPanelVerCanciones.Location = new System.Drawing.Point(520, 318);
+            this.btnSalirPanelVerCanciones.Location = new System.Drawing.Point(595, 374);
             this.btnSalirPanelVerCanciones.Name = "btnSalirPanelVerCanciones";
             this.btnSalirPanelVerCanciones.Size = new System.Drawing.Size(75, 23);
             this.btnSalirPanelVerCanciones.TabIndex = 0;
@@ -437,16 +437,16 @@
             this.panelVerActores.Controls.Add(this.btnVolverVerArtistas);
             this.panelVerActores.Controls.Add(this.label17);
             this.panelVerActores.Controls.Add(this.lstVerActores);
-            this.panelVerActores.Location = new System.Drawing.Point(0, 1);
+            this.panelVerActores.Location = new System.Drawing.Point(0, 3);
             this.panelVerActores.Name = "panelVerActores";
-            this.panelVerActores.Size = new System.Drawing.Size(476, 323);
+            this.panelVerActores.Size = new System.Drawing.Size(689, 412);
             this.panelVerActores.TabIndex = 28;
             this.panelVerActores.Visible = false;
             // 
             // txtDateActor
             // 
             this.txtDateActor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDateActor.Location = new System.Drawing.Point(352, 61);
+            this.txtDateActor.Location = new System.Drawing.Point(444, 117);
             this.txtDateActor.Name = "txtDateActor";
             this.txtDateActor.Size = new System.Drawing.Size(100, 23);
             this.txtDateActor.TabIndex = 9;
@@ -455,7 +455,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label39.Location = new System.Drawing.Point(241, 67);
+            this.label39.Location = new System.Drawing.Point(323, 127);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(111, 13);
             this.label39.TabIndex = 8;
@@ -465,7 +465,7 @@
             // 
             this.label38.AutoSize = true;
             this.label38.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label38.Location = new System.Drawing.Point(305, 31);
+            this.label38.Location = new System.Drawing.Point(385, 95);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(47, 13);
             this.label38.TabIndex = 7;
@@ -474,7 +474,7 @@
             // txtNombreActor
             // 
             this.txtNombreActor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreActor.Location = new System.Drawing.Point(352, 26);
+            this.txtNombreActor.Location = new System.Drawing.Point(444, 83);
             this.txtNombreActor.Name = "txtNombreActor";
             this.txtNombreActor.Size = new System.Drawing.Size(100, 23);
             this.txtNombreActor.TabIndex = 6;
@@ -493,7 +493,7 @@
             // btnEliminarArtistas
             // 
             this.btnEliminarArtistas.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarArtistas.Location = new System.Drawing.Point(352, 249);
+            this.btnEliminarArtistas.Location = new System.Drawing.Point(449, 328);
             this.btnEliminarArtistas.Name = "btnEliminarArtistas";
             this.btnEliminarArtistas.Size = new System.Drawing.Size(87, 23);
             this.btnEliminarArtistas.TabIndex = 4;
@@ -504,7 +504,7 @@
             // btnCargarActor
             // 
             this.btnCargarActor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarActor.Location = new System.Drawing.Point(366, 90);
+            this.btnCargarActor.Location = new System.Drawing.Point(458, 148);
             this.btnCargarActor.Name = "btnCargarActor";
             this.btnCargarActor.Size = new System.Drawing.Size(86, 23);
             this.btnCargarActor.TabIndex = 3;
@@ -516,7 +516,7 @@
             // 
             this.btnVolverVerArtistas.BackColor = System.Drawing.Color.Red;
             this.btnVolverVerArtistas.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverVerArtistas.Location = new System.Drawing.Point(389, 279);
+            this.btnVolverVerArtistas.Location = new System.Drawing.Point(601, 388);
             this.btnVolverVerArtistas.Name = "btnVolverVerArtistas";
             this.btnVolverVerArtistas.Size = new System.Drawing.Size(75, 23);
             this.btnVolverVerArtistas.TabIndex = 2;
@@ -528,7 +528,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label17.Location = new System.Drawing.Point(12, 97);
+            this.label17.Location = new System.Drawing.Point(10, 151);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(46, 13);
             this.label17.TabIndex = 1;
@@ -537,9 +537,9 @@
             // lstVerActores
             // 
             this.lstVerActores.FormattingEnabled = true;
-            this.lstVerActores.Location = new System.Drawing.Point(12, 113);
+            this.lstVerActores.Location = new System.Drawing.Point(12, 178);
             this.lstVerActores.Name = "lstVerActores";
-            this.lstVerActores.Size = new System.Drawing.Size(334, 160);
+            this.lstVerActores.Size = new System.Drawing.Size(430, 173);
             this.lstVerActores.TabIndex = 0;
             // 
             // panelVerUsuarios
@@ -557,7 +557,7 @@
             this.panelVerUsuarios.Controls.Add(this.lstUsuarios);
             this.panelVerUsuarios.Location = new System.Drawing.Point(3, 3);
             this.panelVerUsuarios.Name = "panelVerUsuarios";
-            this.panelVerUsuarios.Size = new System.Drawing.Size(536, 385);
+            this.panelVerUsuarios.Size = new System.Drawing.Size(685, 412);
             this.panelVerUsuarios.TabIndex = 27;
             this.panelVerUsuarios.Visible = false;
             // 
@@ -565,7 +565,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label35.Location = new System.Drawing.Point(352, 65);
+            this.label35.Location = new System.Drawing.Point(499, 146);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(29, 13);
             this.label35.TabIndex = 9;
@@ -574,7 +574,7 @@
             // txtMailUsuario
             // 
             this.txtMailUsuario.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMailUsuario.Location = new System.Drawing.Point(387, 60);
+            this.txtMailUsuario.Location = new System.Drawing.Point(537, 134);
             this.txtMailUsuario.Name = "txtMailUsuario";
             this.txtMailUsuario.Size = new System.Drawing.Size(122, 23);
             this.txtMailUsuario.TabIndex = 8;
@@ -583,7 +583,7 @@
             // 
             this.label34.AutoSize = true;
             this.label34.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label34.Location = new System.Drawing.Point(334, 29);
+            this.label34.Location = new System.Drawing.Point(484, 118);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(47, 13);
             this.label34.TabIndex = 7;
@@ -592,7 +592,7 @@
             // txtNombreUsuario
             // 
             this.txtNombreUsuario.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreUsuario.Location = new System.Drawing.Point(387, 24);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(537, 103);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
             this.txtNombreUsuario.Size = new System.Drawing.Size(122, 23);
             this.txtNombreUsuario.TabIndex = 6;
@@ -600,7 +600,7 @@
             // btnCargarUsuario
             // 
             this.btnCargarUsuario.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarUsuario.Location = new System.Drawing.Point(419, 102);
+            this.btnCargarUsuario.Location = new System.Drawing.Point(569, 168);
             this.btnCargarUsuario.Name = "btnCargarUsuario";
             this.btnCargarUsuario.Size = new System.Drawing.Size(90, 23);
             this.btnCargarUsuario.TabIndex = 5;
@@ -611,7 +611,7 @@
             // btnEliminarUsuario
             // 
             this.btnEliminarUsuario.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarUsuario.Location = new System.Drawing.Point(356, 321);
+            this.btnEliminarUsuario.Location = new System.Drawing.Point(474, 345);
             this.btnEliminarUsuario.Name = "btnEliminarUsuario";
             this.btnEliminarUsuario.Size = new System.Drawing.Size(90, 23);
             this.btnEliminarUsuario.TabIndex = 4;
@@ -634,9 +634,9 @@
             // 
             this.btnVolverdeVerUsuarios.BackColor = System.Drawing.Color.Red;
             this.btnVolverdeVerUsuarios.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverdeVerUsuarios.Location = new System.Drawing.Point(450, 352);
+            this.btnVolverdeVerUsuarios.Location = new System.Drawing.Point(579, 374);
             this.btnVolverdeVerUsuarios.Name = "btnVolverdeVerUsuarios";
-            this.btnVolverdeVerUsuarios.Size = new System.Drawing.Size(75, 23);
+            this.btnVolverdeVerUsuarios.Size = new System.Drawing.Size(94, 35);
             this.btnVolverdeVerUsuarios.TabIndex = 2;
             this.btnVolverdeVerUsuarios.Text = "VOLVER";
             this.btnVolverdeVerUsuarios.UseVisualStyleBackColor = false;
@@ -646,7 +646,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(7, 137);
+            this.label13.Location = new System.Drawing.Point(9, 160);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(48, 13);
             this.label13.TabIndex = 1;
@@ -655,9 +655,9 @@
             // lstUsuarios
             // 
             this.lstUsuarios.FormattingEnabled = true;
-            this.lstUsuarios.Location = new System.Drawing.Point(10, 158);
+            this.lstUsuarios.Location = new System.Drawing.Point(10, 184);
             this.lstUsuarios.Name = "lstUsuarios";
-            this.lstUsuarios.Size = new System.Drawing.Size(340, 186);
+            this.lstUsuarios.Size = new System.Drawing.Size(458, 186);
             this.lstUsuarios.TabIndex = 0;
             // 
             // panelVerArtistas
@@ -673,15 +673,15 @@
             this.panelVerArtistas.Controls.Add(this.label12);
             this.panelVerArtistas.Controls.Add(this.btnVolverdeVerArtistas);
             this.panelVerArtistas.Controls.Add(this.lstArtistas);
-            this.panelVerArtistas.Location = new System.Drawing.Point(1, 1);
+            this.panelVerArtistas.Location = new System.Drawing.Point(3, 3);
             this.panelVerArtistas.Name = "panelVerArtistas";
-            this.panelVerArtistas.Size = new System.Drawing.Size(535, 345);
+            this.panelVerArtistas.Size = new System.Drawing.Size(686, 412);
             this.panelVerArtistas.TabIndex = 26;
             this.panelVerArtistas.Visible = false;
             // 
             // txtDateArtista
             // 
-            this.txtDateArtista.Location = new System.Drawing.Point(395, 72);
+            this.txtDateArtista.Location = new System.Drawing.Point(536, 116);
             this.txtDateArtista.Name = "txtDateArtista";
             this.txtDateArtista.Size = new System.Drawing.Size(100, 20);
             this.txtDateArtista.TabIndex = 9;
@@ -690,7 +690,7 @@
             // 
             this.label37.AutoSize = true;
             this.label37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label37.Location = new System.Drawing.Point(284, 77);
+            this.label37.Location = new System.Drawing.Point(419, 123);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(111, 13);
             this.label37.TabIndex = 8;
@@ -700,7 +700,7 @@
             // 
             this.label36.AutoSize = true;
             this.label36.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label36.Location = new System.Drawing.Point(348, 42);
+            this.label36.Location = new System.Drawing.Point(481, 86);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(47, 13);
             this.label36.TabIndex = 7;
@@ -708,7 +708,7 @@
             // 
             // txtNombreArtista
             // 
-            this.txtNombreArtista.Location = new System.Drawing.Point(395, 39);
+            this.txtNombreArtista.Location = new System.Drawing.Point(536, 80);
             this.txtNombreArtista.Name = "txtNombreArtista";
             this.txtNombreArtista.Size = new System.Drawing.Size(100, 20);
             this.txtNombreArtista.TabIndex = 6;
@@ -716,7 +716,7 @@
             // btnEliminarArtista
             // 
             this.btnEliminarArtista.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarArtista.Location = new System.Drawing.Point(314, 252);
+            this.btnEliminarArtista.Location = new System.Drawing.Point(460, 333);
             this.btnEliminarArtista.Name = "btnEliminarArtista";
             this.btnEliminarArtista.Size = new System.Drawing.Size(94, 23);
             this.btnEliminarArtista.TabIndex = 5;
@@ -727,7 +727,7 @@
             // btnCargarArtista1
             // 
             this.btnCargarArtista1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarArtista1.Location = new System.Drawing.Point(401, 103);
+            this.btnCargarArtista1.Location = new System.Drawing.Point(542, 152);
             this.btnCargarArtista1.Name = "btnCargarArtista1";
             this.btnCargarArtista1.Size = new System.Drawing.Size(94, 23);
             this.btnCargarArtista1.TabIndex = 4;
@@ -750,7 +750,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(3, 110);
+            this.label12.Location = new System.Drawing.Point(6, 157);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(44, 13);
             this.label12.TabIndex = 2;
@@ -760,7 +760,7 @@
             // 
             this.btnVolverdeVerArtistas.BackColor = System.Drawing.Color.Red;
             this.btnVolverdeVerArtistas.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverdeVerArtistas.Location = new System.Drawing.Point(447, 302);
+            this.btnVolverdeVerArtistas.Location = new System.Drawing.Point(600, 376);
             this.btnVolverdeVerArtistas.Name = "btnVolverdeVerArtistas";
             this.btnVolverdeVerArtistas.Size = new System.Drawing.Size(75, 29);
             this.btnVolverdeVerArtistas.TabIndex = 1;
@@ -771,9 +771,9 @@
             // lstArtistas
             // 
             this.lstArtistas.FormattingEnabled = true;
-            this.lstArtistas.Location = new System.Drawing.Point(8, 129);
+            this.lstArtistas.Location = new System.Drawing.Point(8, 181);
             this.lstArtistas.Name = "lstArtistas";
-            this.lstArtistas.Size = new System.Drawing.Size(300, 147);
+            this.lstArtistas.Size = new System.Drawing.Size(446, 173);
             this.lstArtistas.TabIndex = 0;
             // 
             // panelVerPeliculas
@@ -793,16 +793,16 @@
             this.panelVerPeliculas.Controls.Add(this.btnVolverdeVerPeliculas);
             this.panelVerPeliculas.Controls.Add(this.label16);
             this.panelVerPeliculas.Controls.Add(this.lstPeliculas);
-            this.panelVerPeliculas.Location = new System.Drawing.Point(1, 19);
+            this.panelVerPeliculas.Location = new System.Drawing.Point(3, 3);
             this.panelVerPeliculas.Name = "panelVerPeliculas";
-            this.panelVerPeliculas.Size = new System.Drawing.Size(554, 308);
+            this.panelVerPeliculas.Size = new System.Drawing.Size(683, 412);
             this.panelVerPeliculas.TabIndex = 25;
             this.panelVerPeliculas.Visible = false;
             // 
             // btnEliminarPelicula
             // 
             this.btnEliminarPelicula.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarPelicula.Location = new System.Drawing.Point(437, 247);
+            this.btnEliminarPelicula.Location = new System.Drawing.Point(482, 324);
             this.btnEliminarPelicula.Name = "btnEliminarPelicula";
             this.btnEliminarPelicula.Size = new System.Drawing.Size(93, 23);
             this.btnEliminarPelicula.TabIndex = 13;
@@ -813,7 +813,7 @@
             // btnCargarPelicula
             // 
             this.btnCargarPelicula.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarPelicula.Location = new System.Drawing.Point(444, 133);
+            this.btnCargarPelicula.Location = new System.Drawing.Point(542, 150);
             this.btnCargarPelicula.Name = "btnCargarPelicula";
             this.btnCargarPelicula.Size = new System.Drawing.Size(93, 23);
             this.btnCargarPelicula.TabIndex = 12;
@@ -823,28 +823,28 @@
             // 
             // txtDatePelicula
             // 
-            this.txtDatePelicula.Location = new System.Drawing.Point(437, 107);
+            this.txtDatePelicula.Location = new System.Drawing.Point(535, 119);
             this.txtDatePelicula.Name = "txtDatePelicula";
             this.txtDatePelicula.Size = new System.Drawing.Size(100, 20);
             this.txtDatePelicula.TabIndex = 11;
             // 
             // txtDirector
             // 
-            this.txtDirector.Location = new System.Drawing.Point(437, 79);
+            this.txtDirector.Location = new System.Drawing.Point(535, 91);
             this.txtDirector.Name = "txtDirector";
             this.txtDirector.Size = new System.Drawing.Size(100, 20);
             this.txtDirector.TabIndex = 10;
             // 
             // txtActorPelicula
             // 
-            this.txtActorPelicula.Location = new System.Drawing.Point(437, 51);
+            this.txtActorPelicula.Location = new System.Drawing.Point(535, 64);
             this.txtActorPelicula.Name = "txtActorPelicula";
             this.txtActorPelicula.Size = new System.Drawing.Size(100, 20);
             this.txtActorPelicula.TabIndex = 9;
             // 
             // txtNombrePelicula
             // 
-            this.txtNombrePelicula.Location = new System.Drawing.Point(437, 24);
+            this.txtNombrePelicula.Location = new System.Drawing.Point(535, 35);
             this.txtNombrePelicula.Name = "txtNombrePelicula";
             this.txtNombrePelicula.Size = new System.Drawing.Size(100, 20);
             this.txtNombrePelicula.TabIndex = 8;
@@ -854,7 +854,7 @@
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label33.Location = new System.Drawing.Point(318, 110);
+            this.label33.Location = new System.Drawing.Point(416, 122);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(113, 13);
             this.label33.TabIndex = 7;
@@ -865,7 +865,7 @@
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label32.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label32.Location = new System.Drawing.Point(384, 83);
+            this.label32.Location = new System.Drawing.Point(481, 94);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(47, 13);
             this.label32.TabIndex = 6;
@@ -876,7 +876,7 @@
             this.label31.AutoSize = true;
             this.label31.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label31.Location = new System.Drawing.Point(322, 54);
+            this.label31.Location = new System.Drawing.Point(420, 67);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(109, 13);
             this.label31.TabIndex = 5;
@@ -887,7 +887,7 @@
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label30.Location = new System.Drawing.Point(384, 27);
+            this.label30.Location = new System.Drawing.Point(472, 42);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(47, 13);
             this.label30.TabIndex = 4;
@@ -909,9 +909,9 @@
             // 
             this.btnVolverdeVerPeliculas.BackColor = System.Drawing.Color.Red;
             this.btnVolverdeVerPeliculas.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverdeVerPeliculas.Location = new System.Drawing.Point(476, 278);
+            this.btnVolverdeVerPeliculas.Location = new System.Drawing.Point(598, 352);
             this.btnVolverdeVerPeliculas.Name = "btnVolverdeVerPeliculas";
-            this.btnVolverdeVerPeliculas.Size = new System.Drawing.Size(75, 23);
+            this.btnVolverdeVerPeliculas.Size = new System.Drawing.Size(87, 35);
             this.btnVolverdeVerPeliculas.TabIndex = 2;
             this.btnVolverdeVerPeliculas.Text = "VOLVER";
             this.btnVolverdeVerPeliculas.UseVisualStyleBackColor = false;
@@ -922,7 +922,7 @@
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.Location = new System.Drawing.Point(15, 120);
+            this.label16.Location = new System.Drawing.Point(16, 160);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(52, 13);
             this.label16.TabIndex = 1;
@@ -931,9 +931,9 @@
             // lstPeliculas
             // 
             this.lstPeliculas.FormattingEnabled = true;
-            this.lstPeliculas.Location = new System.Drawing.Point(18, 136);
+            this.lstPeliculas.Location = new System.Drawing.Point(18, 188);
             this.lstPeliculas.Name = "lstPeliculas";
-            this.lstPeliculas.Size = new System.Drawing.Size(413, 134);
+            this.lstPeliculas.Size = new System.Drawing.Size(457, 160);
             this.lstPeliculas.TabIndex = 0;
             // 
             // panelVerPlaylists
@@ -950,16 +950,16 @@
             this.panelVerPlaylists.Controls.Add(this.label15);
             this.panelVerPlaylists.Controls.Add(this.label14);
             this.panelVerPlaylists.Controls.Add(this.lstVerPlaylists);
-            this.panelVerPlaylists.Location = new System.Drawing.Point(3, 51);
+            this.panelVerPlaylists.Location = new System.Drawing.Point(0, 3);
             this.panelVerPlaylists.Name = "panelVerPlaylists";
-            this.panelVerPlaylists.Size = new System.Drawing.Size(517, 284);
+            this.panelVerPlaylists.Size = new System.Drawing.Size(689, 412);
             this.panelVerPlaylists.TabIndex = 24;
             this.panelVerPlaylists.Visible = false;
             // 
             // btnEliminarPlaylist
             // 
             this.btnEliminarPlaylist.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarPlaylist.Location = new System.Drawing.Point(307, 226);
+            this.btnEliminarPlaylist.Location = new System.Drawing.Point(497, 331);
             this.btnEliminarPlaylist.Name = "btnEliminarPlaylist";
             this.btnEliminarPlaylist.Size = new System.Drawing.Size(100, 23);
             this.btnEliminarPlaylist.TabIndex = 10;
@@ -970,7 +970,7 @@
             // btnCargarPlaylist
             // 
             this.btnCargarPlaylist.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarPlaylist.Location = new System.Drawing.Point(373, 97);
+            this.btnCargarPlaylist.Location = new System.Drawing.Point(543, 149);
             this.btnCargarPlaylist.Name = "btnCargarPlaylist";
             this.btnCargarPlaylist.Size = new System.Drawing.Size(100, 23);
             this.btnCargarPlaylist.TabIndex = 9;
@@ -980,7 +980,7 @@
             // 
             // txtCancionesInPlaylist
             // 
-            this.txtCancionesInPlaylist.Location = new System.Drawing.Point(373, 70);
+            this.txtCancionesInPlaylist.Location = new System.Drawing.Point(543, 115);
             this.txtCancionesInPlaylist.Name = "txtCancionesInPlaylist";
             this.txtCancionesInPlaylist.Size = new System.Drawing.Size(100, 20);
             this.txtCancionesInPlaylist.TabIndex = 8;
@@ -989,7 +989,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label28.Location = new System.Drawing.Point(304, 73);
+            this.label28.Location = new System.Drawing.Point(477, 118);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(60, 13);
             this.label28.TabIndex = 7;
@@ -999,7 +999,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label27.Location = new System.Drawing.Point(317, 41);
+            this.label27.Location = new System.Drawing.Point(490, 84);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(47, 13);
             this.label27.TabIndex = 6;
@@ -1007,7 +1007,7 @@
             // 
             // txtNombrePlaylist
             // 
-            this.txtNombrePlaylist.Location = new System.Drawing.Point(373, 38);
+            this.txtNombrePlaylist.Location = new System.Drawing.Point(543, 81);
             this.txtNombrePlaylist.Name = "txtNombrePlaylist";
             this.txtNombrePlaylist.Size = new System.Drawing.Size(100, 20);
             this.txtNombrePlaylist.TabIndex = 5;
@@ -1027,9 +1027,9 @@
             // 
             this.btnVolverdeVerPlaylists.BackColor = System.Drawing.Color.Red;
             this.btnVolverdeVerPlaylists.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverdeVerPlaylists.Location = new System.Drawing.Point(438, 254);
+            this.btnVolverdeVerPlaylists.Location = new System.Drawing.Point(598, 371);
             this.btnVolverdeVerPlaylists.Name = "btnVolverdeVerPlaylists";
-            this.btnVolverdeVerPlaylists.Size = new System.Drawing.Size(75, 23);
+            this.btnVolverdeVerPlaylists.Size = new System.Drawing.Size(78, 35);
             this.btnVolverdeVerPlaylists.TabIndex = 3;
             this.btnVolverdeVerPlaylists.Text = "VOLVER";
             this.btnVolverdeVerPlaylists.UseVisualStyleBackColor = false;
@@ -1039,7 +1039,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Location = new System.Drawing.Point(4, 107);
+            this.label15.Location = new System.Drawing.Point(7, 164);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(47, 13);
             this.label15.TabIndex = 2;
@@ -1057,9 +1057,9 @@
             // lstVerPlaylists
             // 
             this.lstVerPlaylists.FormattingEnabled = true;
-            this.lstVerPlaylists.Location = new System.Drawing.Point(10, 128);
+            this.lstVerPlaylists.Location = new System.Drawing.Point(10, 180);
             this.lstVerPlaylists.Name = "lstVerPlaylists";
-            this.lstVerPlaylists.Size = new System.Drawing.Size(290, 121);
+            this.lstVerPlaylists.Size = new System.Drawing.Size(481, 173);
             this.lstVerPlaylists.TabIndex = 0;
             // 
             // btnSalirAdm
@@ -1249,7 +1249,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(685, 411);
+            this.ClientSize = new System.Drawing.Size(686, 414);
             this.Controls.Add(this.panelMenuAdmin);
             this.Controls.Add(this.lblErrorLogIn);
             this.Controls.Add(this.label3);
@@ -1260,6 +1260,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExitfromAdm);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "Admin";
             this.Text = "Admin";
             this.Load += new System.EventHandler(this.Admin_Load);

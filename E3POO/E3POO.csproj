@@ -180,5 +180,11 @@
   <ItemGroup>
     <None Include="bin\Debug\archivostxt\NombreCancion.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de Dia spotflix.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
