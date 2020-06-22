@@ -40,6 +40,7 @@ namespace E3POO
         {
             using (Songs ventanaCanciones = new Songs())
                 ventanaCanciones.ShowDialog();
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -62,15 +63,33 @@ namespace E3POO
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            if (txtNUsuario.Text=="Admin" && txtPassword1.Text=="1234")
+            StreamReader lector = new StreamReader(Application.StartupPath + "\\archivostxt\\private-UsPss.txt", true);
+            string Nombre = "";
+            string Contraseña = "";
+            while(!lector.EndOfStream)
             {
-                panelInicio.Visible = false;
+                string x = lector.ReadLine();
+                if(x==txtNUsuario.Text)
+                {
+                    Nombre = x.ToString();
+                    Contraseña = lector.ReadLine();
+                    if(Nombre==txtNUsuario.Text && Contraseña==txtPassword1.Text)
+                    {
+                        panelInicio.Visible = false;
+                    }
+                    else
+                    {
+                        lblUsuario.BringToFront();
+                        lblUsuario.Text = "Nombre de Usuario/Incorrectos";
+                    }
+                }
+                else
+                {
+
+                }
+                
             }
-            else
-            {
-                lblUsuario.BringToFront();
-                lblUsuario.Text = "Nombre de Usuario/Incorrectos";
-            }
+            lector.Close();
         }
 
         private void btnExitAll_Click(object sender, EventArgs e)
@@ -176,6 +195,53 @@ namespace E3POO
 
             lblVersion.BackColor = Color.Black;
             lblVersion.ForeColor = Color.White;
+        }
+
+        private void button6_Click(object sender, EventArgs e)  //Boton crea un nuevo usuario
+        {
+            try
+            {
+                if (txtPasswordNewUser.Text == txtConfPss.Text)
+                {
+                    StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\private-UsPss.txt", true);
+                    sw.WriteLine("\n" + txtNombreUsuarioNuevo.Text + "\n" + txtPasswordNewUser.Text);
+                    sw.Close();
+                    StreamWriter sw1 = new StreamWriter(Application.StartupPath + "\\archivostxt\\usuarios.txt", true);
+                    sw1.WriteLine("\n" + "\n" + "Nombre: " + txtNombreUsuarioNuevo.Text + " Mail: " + txtMailUsuarioNuevo.Text);
+                    sw1.Close();
+                    lblSeCreoUsuario.Text = "Se creó exitosamente el usuario. Bienvenido";
+                    txtMailUsuarioNuevo.Clear();
+                    txtNombreUsuarioNuevo.Clear();
+                    txtPasswordNewUser.Clear();
+                    txtConfPss.Clear();
+                }
+                else
+                {
+                    lblSeCreoUsuario.Text = "Las contraseñas no son iguales!";
+                }
+            }
+            catch
+            {
+                lblNoSePudoCrearUsuario.Text = "No se pudo crear el usuario";
+            }
+
+        }
+
+        private void button3_Click_2(object sender, EventArgs e)  //Boton Sign In
+        {
+            panelCrearUsuario.Visible = true;
+            panelCrearUsuario.BringToFront();
+        }
+
+        private void button5_Click(object sender, EventArgs e)  //Boton Salir de Sign In panel
+        {
+            panelCrearUsuario.Visible = false;
+            panelCrearUsuario.SendToBack();
+        }
+
+        private void btnExitApp_Click(object sender, EventArgs e)  //Cerrar App
+        {
+            this.Close();
         }
     }
 }

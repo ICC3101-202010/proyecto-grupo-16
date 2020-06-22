@@ -36,6 +36,26 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panelInicio = new System.Windows.Forms.Panel();
+            this.panelCrearUsuario = new System.Windows.Forms.Panel();
+            this.lblSeCreoUsuario = new System.Windows.Forms.Label();
+            this.lblNoSePudoCrearUsuario = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnNewUser = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtConfPss = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtPasswordNewUser = new System.Windows.Forms.TextBox();
+            this.txtMailUsuarioNuevo = new System.Windows.Forms.TextBox();
+            this.txtNombreUsuarioNuevo = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.btnManual = new System.Windows.Forms.Button();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblDatos1 = new System.Windows.Forms.Label();
@@ -68,6 +88,9 @@
             this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelInicio.SuspendLayout();
+            this.panelCrearUsuario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelManual.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -146,6 +169,8 @@
             // 
             // panelInicio
             // 
+            this.panelInicio.Controls.Add(this.panelCrearUsuario);
+            this.panelInicio.Controls.Add(this.button3);
             this.panelInicio.Controls.Add(this.btnManual);
             this.panelInicio.Controls.Add(this.lblUsuario);
             this.panelInicio.Controls.Add(this.lblDatos1);
@@ -158,14 +183,240 @@
             this.panelInicio.Controls.Add(this.lblSlogan2);
             this.panelInicio.Controls.Add(this.lblTitulo1);
             this.panelInicio.Controls.Add(this.pictureBox2);
-            this.panelInicio.Location = new System.Drawing.Point(1, 41);
+            this.panelInicio.Location = new System.Drawing.Point(0, 41);
             this.panelInicio.Name = "panelInicio";
-            this.panelInicio.Size = new System.Drawing.Size(681, 391);
+            this.panelInicio.Size = new System.Drawing.Size(687, 399);
             this.panelInicio.TabIndex = 6;
+            // 
+            // panelCrearUsuario
+            // 
+            this.panelCrearUsuario.Controls.Add(this.lblSeCreoUsuario);
+            this.panelCrearUsuario.Controls.Add(this.lblNoSePudoCrearUsuario);
+            this.panelCrearUsuario.Controls.Add(this.label8);
+            this.panelCrearUsuario.Controls.Add(this.btnNewUser);
+            this.panelCrearUsuario.Controls.Add(this.label7);
+            this.panelCrearUsuario.Controls.Add(this.label6);
+            this.panelCrearUsuario.Controls.Add(this.label5);
+            this.panelCrearUsuario.Controls.Add(this.label4);
+            this.panelCrearUsuario.Controls.Add(this.txtConfPss);
+            this.panelCrearUsuario.Controls.Add(this.label3);
+            this.panelCrearUsuario.Controls.Add(this.label2);
+            this.panelCrearUsuario.Controls.Add(this.label1);
+            this.panelCrearUsuario.Controls.Add(this.txtPasswordNewUser);
+            this.panelCrearUsuario.Controls.Add(this.txtMailUsuarioNuevo);
+            this.panelCrearUsuario.Controls.Add(this.txtNombreUsuarioNuevo);
+            this.panelCrearUsuario.Controls.Add(this.button5);
+            this.panelCrearUsuario.Controls.Add(this.pictureBox4);
+            this.panelCrearUsuario.Controls.Add(this.pictureBox5);
+            this.panelCrearUsuario.Location = new System.Drawing.Point(3, 0);
+            this.panelCrearUsuario.Name = "panelCrearUsuario";
+            this.panelCrearUsuario.Size = new System.Drawing.Size(714, 383);
+            this.panelCrearUsuario.TabIndex = 19;
+            this.panelCrearUsuario.Visible = false;
+            // 
+            // lblSeCreoUsuario
+            // 
+            this.lblSeCreoUsuario.AutoSize = true;
+            this.lblSeCreoUsuario.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblSeCreoUsuario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblSeCreoUsuario.Location = new System.Drawing.Point(392, 249);
+            this.lblSeCreoUsuario.Name = "lblSeCreoUsuario";
+            this.lblSeCreoUsuario.Size = new System.Drawing.Size(0, 13);
+            this.lblSeCreoUsuario.TabIndex = 36;
+            // 
+            // lblNoSePudoCrearUsuario
+            // 
+            this.lblNoSePudoCrearUsuario.AutoSize = true;
+            this.lblNoSePudoCrearUsuario.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblNoSePudoCrearUsuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblNoSePudoCrearUsuario.Location = new System.Drawing.Point(416, 257);
+            this.lblNoSePudoCrearUsuario.Name = "lblNoSePudoCrearUsuario";
+            this.lblNoSePudoCrearUsuario.Size = new System.Drawing.Size(0, 13);
+            this.lblNoSePudoCrearUsuario.TabIndex = 35;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Location = new System.Drawing.Point(32, 9);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(260, 23);
+            this.label8.TabIndex = 34;
+            this.label8.Text = "Crea tu propio usuario!";
+            // 
+            // btnNewUser
+            // 
+            this.btnNewUser.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewUser.Location = new System.Drawing.Point(416, 205);
+            this.btnNewUser.Name = "btnNewUser";
+            this.btnNewUser.Size = new System.Drawing.Size(88, 39);
+            this.btnNewUser.TabIndex = 32;
+            this.btnNewUser.Text = "Sign In";
+            this.btnNewUser.UseVisualStyleBackColor = true;
+            this.btnNewUser.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Location = new System.Drawing.Point(92, 301);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(195, 13);
+            this.label7.TabIndex = 31;
+            this.label7.Text = "expuestas en el manual de usuario V2.0";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(92, 279);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(218, 13);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "de acuerdo con las políticas de la aplicación";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(92, 257);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(222, 13);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Al crear un usuario usted está afirmando estar";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(63, 176);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(162, 18);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "Conf Contraseña:";
+            // 
+            // txtConfPss
+            // 
+            this.txtConfPss.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfPss.Location = new System.Drawing.Point(231, 175);
+            this.txtConfPss.Name = "txtConfPss";
+            this.txtConfPss.Size = new System.Drawing.Size(273, 23);
+            this.txtConfPss.TabIndex = 27;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(109, 142);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(116, 18);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Contraseña:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(177, 110);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 18);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Mail:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(42, 79);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(183, 18);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Nombre de Usuario:";
+            // 
+            // txtPasswordNewUser
+            // 
+            this.txtPasswordNewUser.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPasswordNewUser.Location = new System.Drawing.Point(231, 141);
+            this.txtPasswordNewUser.Name = "txtPasswordNewUser";
+            this.txtPasswordNewUser.Size = new System.Drawing.Size(273, 23);
+            this.txtPasswordNewUser.TabIndex = 23;
+            // 
+            // txtMailUsuarioNuevo
+            // 
+            this.txtMailUsuarioNuevo.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMailUsuarioNuevo.Location = new System.Drawing.Point(231, 109);
+            this.txtMailUsuarioNuevo.Name = "txtMailUsuarioNuevo";
+            this.txtMailUsuarioNuevo.Size = new System.Drawing.Size(273, 23);
+            this.txtMailUsuarioNuevo.TabIndex = 22;
+            // 
+            // txtNombreUsuarioNuevo
+            // 
+            this.txtNombreUsuarioNuevo.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreUsuarioNuevo.Location = new System.Drawing.Point(231, 78);
+            this.txtNombreUsuarioNuevo.Name = "txtNombreUsuarioNuevo";
+            this.txtNombreUsuarioNuevo.Size = new System.Drawing.Size(273, 23);
+            this.txtNombreUsuarioNuevo.TabIndex = 21;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Red;
+            this.button5.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(573, 331);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(93, 33);
+            this.button5.TabIndex = 20;
+            this.button5.Text = "SALIR";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::E3POO.Properties.Resources.preview1;
+            this.pictureBox4.Location = new System.Drawing.Point(-38, -15);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(725, 398);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 33;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Visible = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::E3POO.Properties.Resources.preview1;
+            this.pictureBox5.Location = new System.Drawing.Point(-27, -9);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(735, 392);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 37;
+            this.pictureBox5.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(283, 195);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(71, 28);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "Sign In";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_2);
             // 
             // btnManual
             // 
-            this.btnManual.Location = new System.Drawing.Point(553, 3);
+            this.btnManual.Location = new System.Drawing.Point(554, 5);
             this.btnManual.Name = "btnManual";
             this.btnManual.Size = new System.Drawing.Size(75, 23);
             this.btnManual.TabIndex = 17;
@@ -204,15 +455,16 @@
             this.btnExitApp.TabIndex = 9;
             this.btnExitApp.Text = "SALIR";
             this.btnExitApp.UseVisualStyleBackColor = false;
+            this.btnExitApp.Click += new System.EventHandler(this.btnExitApp_Click);
             // 
             // btnLogIn
             // 
             this.btnLogIn.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogIn.Location = new System.Drawing.Point(300, 195);
+            this.btnLogIn.Location = new System.Drawing.Point(360, 195);
             this.btnLogIn.Name = "btnLogIn";
-            this.btnLogIn.Size = new System.Drawing.Size(131, 23);
+            this.btnLogIn.Size = new System.Drawing.Size(71, 28);
             this.btnLogIn.TabIndex = 6;
-            this.btnLogIn.Text = "INICIAR SESIÓN";
+            this.btnLogIn.Text = "Log In";
             this.btnLogIn.UseVisualStyleBackColor = true;
             this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
@@ -414,9 +666,9 @@
             this.panelManual.Controls.Add(this.button2);
             this.panelManual.Controls.Add(this.label18);
             this.panelManual.Controls.Add(this.lstManual);
-            this.panelManual.Location = new System.Drawing.Point(-8, -2);
+            this.panelManual.Location = new System.Drawing.Point(0, -3);
             this.panelManual.Name = "panelManual";
-            this.panelManual.Size = new System.Drawing.Size(699, 447);
+            this.panelManual.Size = new System.Drawing.Size(714, 443);
             this.panelManual.TabIndex = 17;
             this.panelManual.Visible = false;
             // 
@@ -461,24 +713,27 @@
             // 
             // btnDia
             // 
+            this.btnDia.BackColor = System.Drawing.Color.White;
             this.btnDia.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDia.Location = new System.Drawing.Point(590, 72);
+            this.btnDia.Location = new System.Drawing.Point(554, 72);
             this.btnDia.Name = "btnDia";
             this.btnDia.Size = new System.Drawing.Size(39, 23);
             this.btnDia.TabIndex = 19;
             this.btnDia.Text = "D";
-            this.btnDia.UseVisualStyleBackColor = true;
+            this.btnDia.UseVisualStyleBackColor = false;
             this.btnDia.Click += new System.EventHandler(this.btnDia_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button4.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(554, 72);
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(592, 72);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(37, 23);
             this.button4.TabIndex = 20;
             this.button4.Text = "N";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Inicio
@@ -510,7 +765,6 @@
             this.Controls.Add(this.pictureBox3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(700, 475);
             this.MinimumSize = new System.Drawing.Size(700, 475);
             this.Name = "Inicio";
             this.Text = "Inicio";
@@ -518,6 +772,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelInicio.ResumeLayout(false);
             this.panelInicio.PerformLayout();
+            this.panelCrearUsuario.ResumeLayout(false);
+            this.panelCrearUsuario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelManual.ResumeLayout(false);
             this.panelManual.PerformLayout();
@@ -566,6 +824,26 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnDia;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel panelCrearUsuario;
+        private System.Windows.Forms.Button btnNewUser;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtConfPss;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtPasswordNewUser;
+        private System.Windows.Forms.TextBox txtMailUsuarioNuevo;
+        private System.Windows.Forms.TextBox txtNombreUsuarioNuevo;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label lblNoSePudoCrearUsuario;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblSeCreoUsuario;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
 
