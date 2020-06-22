@@ -238,14 +238,37 @@ namespace E3POO
             
         }
 
-        private void btnCargarArtista1_Click(object sender, EventArgs e)
+        //Artistas
+        private void btnCargarArtista1_Click(object sender, EventArgs e)  //Cargar Artista
         {
             StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\artistas.txt", true);
             sw.WriteLine("\n"+ "\n" + "Nombre: "+txtNombreArtista.Text+ "Fecha de Nacimiento: "+txtDateArtista.Text);
             sw.Close();
             lstArtistas.Items.Add("Nombre: " + txtNombreArtista.Text + "Fecha de Nacimiento: " + txtDateArtista.Text);
+
+            StreamWriter sw1 = new StreamWriter(Application.StartupPath + "\\archivostxt\\Info\\info - "+txtNombreArtista.Text.ToLower()+".txt", true);
+            sw1.WriteLine("Nombre: " + txtNombreArtista.Text + "Fecha de Nacimiento: " + txtDateArtista.Text + "\n");
+            sw1.WriteLine("Algunas Canciones: " + "\n");
+
+            sw1.WriteLine("- " + txtAgregarCancion1.Text);
+            sw1.WriteLine("- " + txtAgregarCancion2.Text);
+            sw1.WriteLine("- " + txtAgregarCancion3.Text);
+            sw1.WriteLine("- " + txtAgregarCancion4.Text);
+
+            sw1.WriteLine("Algunos datos curiosos del artista:");
+            sw1.WriteLine("- " + txtDatoCurioso1.Text);
+            sw1.WriteLine("- " + txtDatoCurioso2.Text);
+            sw1.Close();
+
             txtNombreArtista.Clear();
             txtDateArtista.Clear();
+            txtAgregarCancion1.Clear();
+            txtAgregarCancion2.Clear();
+            txtAgregarCancion3.Clear();
+            txtAgregarCancion4.Clear();
+            txtDatoCurioso1.Clear();
+            txtDatoCurioso2.Clear();
+
         }
 
 
@@ -256,8 +279,31 @@ namespace E3POO
             sw.WriteLine("\n" + "\n" + "Nombre: " +txtNombreActor.Text+" Fecha de Nacimiento: "+txtDateActor.Text);
             sw.Close();
             lstVerActores.Items.Add("Nombre: " + txtNombreActor.Text + " Fecha de Nacimiento: " + txtDateActor.Text);
+
+
+            StreamWriter sw1 = new StreamWriter(Application.StartupPath + "\\archivostxt\\Info\\info - " + txtNombreActor.Text.ToLower() + ".txt", true);
+
+            sw1.WriteLine("Nombre: " + txtNombreActor.Text + "Fecha de Nacimiento: " + txtDateActor.Text + "\n");
+            sw1.WriteLine("Algunas Peliculas en las que ha aparecido: " + "\n");
+
+            sw1.WriteLine("- " + txtAgregarPelicula1.Text);
+            sw1.WriteLine("- " + txtAgregarPelicula2.Text);
+            sw1.WriteLine("- " + txtAgregarPelicula3.Text);
+            sw1.WriteLine("- " + txtAgregarPelicula4.Text + "\n");
+
+            sw1.WriteLine("Algunos datos interesantes del actor:");
+            sw1.WriteLine("- " + txtDatoCurioso1Actor.Text);
+            sw1.WriteLine("- " + txtDatoCurioso2Actor.Text);
+            sw1.Close();
+
             txtNombreActor.Clear();
             txtDateActor.Clear();
+            txtAgregarPelicula1.Clear();
+            txtAgregarPelicula2.Clear();
+            txtAgregarPelicula3.Clear();
+            txtAgregarPelicula4.Clear();
+            txtDatoCurioso1Actor.Clear();
+            txtDatoCurioso2Actor.Clear();
         }
 
         private void btnEliminarArtistas_Click(object sender, EventArgs e) //Faltan Arreglos
@@ -291,17 +337,31 @@ namespace E3POO
             sw1.WriteLine(txtNombreCancion.Text+ " - " + txtArtistaCancion.Text);
             sw1.Close();
             lstCanciones.Items.Add("Nombre: " + txtNombreCancion.Text + " Album: " + txtAlbumCancion.Text + " Artista: " + txtArtistaCancion.Text + " Fecha de Lanzamiento: " + txtDateCancion.Text);
-            
+
+
+            StreamWriter sw2 = new StreamWriter(Application.StartupPath + "\\archivostxt\\Info\\info - " + txtNombreCancion.Text.ToLower() + ".txt", true);
+
+            sw2.WriteLine("Nombre: " + txtNombreCancion.Text + "Fecha de Lanzamiento: " + txtDateCancion.Text);
+            sw2.WriteLine("Artista: " + txtArtistaCancion.Text);
+
+            sw2.WriteLine("\n"+"Algunos datos interesantes de la canción:");
+            sw2.WriteLine("- " + txtDatoCurioso1Cancion.Text);
+            sw2.WriteLine("- " + txtDatoCurioso2Cancion.Text);
+            sw2.Close();
+
+
             txtNombreCancion.Clear();
             txtAlbumCancion.Clear();
             txtArtistaCancion.Clear();
             txtDateCancion.Clear();
+            txtDatoCurioso1Cancion.Clear();
+            txtDatoCurioso2Cancion.Clear();
         }
 
         //Playlists
         private void btnCargarPlaylist_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\playlists.txt", true);//fdlkjfldjgldfkjgfdlkgjfdlkgjflkgjflkgjfdlkgjflkjgfdlkjgdflkjg
+            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\archivostxt\\playlists.txt", true);
             sw.WriteLine("\n" + "\n" + "Nombre: " +txtNombrePlaylist.Text+ " Canciones: "+txtCancionesInPlaylist.Text);
             sw.Close();
             lstCanciones.Items.Add(txtNombreCancion.Text);
@@ -343,7 +403,18 @@ namespace E3POO
             StreamWriter sw1 = new StreamWriter(Application.StartupPath + "\\archivostxt\\NombrePeliculas.txt", true);
             sw1.WriteLine(txtNombrePelicula.Text);
             sw1.Close();
+
+            StreamWriter sw2 = new StreamWriter(Application.StartupPath + "\\archivostxt\\Info\\info - " + txtNombrePelicula.Text.ToLower() + ".txt", true);
+            sw2.WriteLine("Nombre: " + txtNombrePelicula.Text + "Director: " + txtDirector.Text);
+            sw.WriteLine("Actor/Actriz Principal: " + txtActorPelicula.Text + " Fecha de lanzamiento: " + txtDatePelicula.Text + "\n");
+
+            sw2.WriteLine("Algunos datos curiosos de la película:");
+            sw2.WriteLine("- " + txtDatoCurioso1Pelicula.Text);
+            sw2.WriteLine("- " + txtDatoCurioso2Pelicula.Text);
+            sw2.Close();
+
             lstPeliculas.Items.Add("Nombre: " + txtNombrePelicula.Text + " Actor Principal: " + txtActorPelicula.Text + " Fecha Lanzamiento: " + txtDatePelicula.Text);
+
             txtNombrePelicula.Clear();
             txtActorPelicula.Clear();
             txtDatePelicula.Clear();

@@ -40,6 +40,28 @@
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.lblErrorLogIn = new System.Windows.Forms.Label();
             this.panelMenuAdmin = new System.Windows.Forms.Panel();
+            this.panelVerArtistas = new System.Windows.Forms.Panel();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.txtDatoCurioso2 = new System.Windows.Forms.TextBox();
+            this.txtDatoCurioso1 = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.txtAgregarCancion4 = new System.Windows.Forms.TextBox();
+            this.txtAgregarCancion3 = new System.Windows.Forms.TextBox();
+            this.txtAgregarCancion2 = new System.Windows.Forms.TextBox();
+            this.txtAgregarCancion1 = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.txtDateArtista = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.txtNombreArtista = new System.Windows.Forms.TextBox();
+            this.btnEliminarArtista = new System.Windows.Forms.Button();
+            this.btnCargarArtista1 = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnVolverdeVerArtistas = new System.Windows.Forms.Button();
+            this.lstArtistas = new System.Windows.Forms.ListBox();
             this.panelVerCanciones = new System.Windows.Forms.Panel();
             this.txtDateCancion = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
@@ -77,17 +99,6 @@
             this.btnVolverdeVerUsuarios = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.lstUsuarios = new System.Windows.Forms.ListBox();
-            this.panelVerArtistas = new System.Windows.Forms.Panel();
-            this.txtDateArtista = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.txtNombreArtista = new System.Windows.Forms.TextBox();
-            this.btnEliminarArtista = new System.Windows.Forms.Button();
-            this.btnCargarArtista1 = new System.Windows.Forms.Button();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.btnVolverdeVerArtistas = new System.Windows.Forms.Button();
-            this.lstArtistas = new System.Windows.Forms.ListBox();
             this.panelVerPeliculas = new System.Windows.Forms.Panel();
             this.btnEliminarPelicula = new System.Windows.Forms.Button();
             this.btnCargarPelicula = new System.Windows.Forms.Button();
@@ -131,13 +142,39 @@
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.txtAgregarPelicula1 = new System.Windows.Forms.TextBox();
+            this.txtAgregarPelicula2 = new System.Windows.Forms.TextBox();
+            this.txtAgregarPelicula3 = new System.Windows.Forms.TextBox();
+            this.txtAgregarPelicula4 = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.txtDatoCurioso1Actor = new System.Windows.Forms.TextBox();
+            this.txtDatoCurioso2Actor = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.txtDatoCurioso1Pelicula = new System.Windows.Forms.TextBox();
+            this.txtDatoCurioso2Pelicula = new System.Windows.Forms.TextBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.txtDatoCurioso1Cancion = new System.Windows.Forms.TextBox();
+            this.txtDatoCurioso2Cancion = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             this.panelMenuAdmin.SuspendLayout();
+            this.panelVerArtistas.SuspendLayout();
             this.panelVerCanciones.SuspendLayout();
             this.panelVerActores.SuspendLayout();
             this.panelVerUsuarios.SuspendLayout();
-            this.panelVerArtistas.SuspendLayout();
             this.panelVerPeliculas.SuspendLayout();
             this.panelVerPlaylists.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -243,10 +280,10 @@
             // panelMenuAdmin
             // 
             this.panelMenuAdmin.Controls.Add(this.panelVerCanciones);
-            this.panelMenuAdmin.Controls.Add(this.panelVerActores);
-            this.panelMenuAdmin.Controls.Add(this.panelVerUsuarios);
-            this.panelMenuAdmin.Controls.Add(this.panelVerArtistas);
             this.panelMenuAdmin.Controls.Add(this.panelVerPeliculas);
+            this.panelMenuAdmin.Controls.Add(this.panelVerActores);
+            this.panelMenuAdmin.Controls.Add(this.panelVerArtistas);
+            this.panelMenuAdmin.Controls.Add(this.panelVerUsuarios);
             this.panelMenuAdmin.Controls.Add(this.panelVerPlaylists);
             this.panelMenuAdmin.Controls.Add(this.btnSalirAdm);
             this.panelMenuAdmin.Controls.Add(this.btnVerUsuarios);
@@ -266,13 +303,239 @@
             this.panelMenuAdmin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMenuAdmin.Location = new System.Drawing.Point(0, 0);
             this.panelMenuAdmin.Name = "panelMenuAdmin";
-            this.panelMenuAdmin.Size = new System.Drawing.Size(686, 414);
+            this.panelMenuAdmin.Size = new System.Drawing.Size(687, 414);
             this.panelMenuAdmin.TabIndex = 9;
             this.panelMenuAdmin.Visible = false;
+            // 
+            // panelVerArtistas
+            // 
+            this.panelVerArtistas.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelVerArtistas.Controls.Add(this.label44);
+            this.panelVerArtistas.Controls.Add(this.label43);
+            this.panelVerArtistas.Controls.Add(this.label42);
+            this.panelVerArtistas.Controls.Add(this.txtDatoCurioso2);
+            this.panelVerArtistas.Controls.Add(this.txtDatoCurioso1);
+            this.panelVerArtistas.Controls.Add(this.label41);
+            this.panelVerArtistas.Controls.Add(this.txtAgregarCancion4);
+            this.panelVerArtistas.Controls.Add(this.txtAgregarCancion3);
+            this.panelVerArtistas.Controls.Add(this.txtAgregarCancion2);
+            this.panelVerArtistas.Controls.Add(this.txtAgregarCancion1);
+            this.panelVerArtistas.Controls.Add(this.label40);
+            this.panelVerArtistas.Controls.Add(this.txtDateArtista);
+            this.panelVerArtistas.Controls.Add(this.label37);
+            this.panelVerArtistas.Controls.Add(this.label36);
+            this.panelVerArtistas.Controls.Add(this.txtNombreArtista);
+            this.panelVerArtistas.Controls.Add(this.btnEliminarArtista);
+            this.panelVerArtistas.Controls.Add(this.btnCargarArtista1);
+            this.panelVerArtistas.Controls.Add(this.label19);
+            this.panelVerArtistas.Controls.Add(this.label12);
+            this.panelVerArtistas.Controls.Add(this.btnVolverdeVerArtistas);
+            this.panelVerArtistas.Controls.Add(this.lstArtistas);
+            this.panelVerArtistas.Location = new System.Drawing.Point(3, 3);
+            this.panelVerArtistas.Name = "panelVerArtistas";
+            this.panelVerArtistas.Size = new System.Drawing.Size(686, 412);
+            this.panelVerArtistas.TabIndex = 26;
+            this.panelVerArtistas.Visible = false;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label44.Location = new System.Drawing.Point(580, 189);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(79, 13);
+            this.label44.TabIndex = 20;
+            this.label44.Text = "cargar al artista";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label43.Location = new System.Drawing.Point(581, 176);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(94, 13);
+            this.label43.TabIndex = 19;
+            this.label43.Text = "los espacios antes";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label42.Location = new System.Drawing.Point(580, 164);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(95, 13);
+            this.label42.TabIndex = 18;
+            this.label42.Text = "Debes llenar todos";
+            // 
+            // txtDatoCurioso2
+            // 
+            this.txtDatoCurioso2.Location = new System.Drawing.Point(385, 107);
+            this.txtDatoCurioso2.Name = "txtDatoCurioso2";
+            this.txtDatoCurioso2.Size = new System.Drawing.Size(100, 20);
+            this.txtDatoCurioso2.TabIndex = 17;
+            // 
+            // txtDatoCurioso1
+            // 
+            this.txtDatoCurioso1.Location = new System.Drawing.Point(385, 80);
+            this.txtDatoCurioso1.Name = "txtDatoCurioso1";
+            this.txtDatoCurioso1.Size = new System.Drawing.Size(100, 20);
+            this.txtDatoCurioso1.TabIndex = 16;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label41.Location = new System.Drawing.Point(301, 83);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(81, 13);
+            this.label41.TabIndex = 15;
+            this.label41.Text = "Datos Curiosos:";
+            // 
+            // txtAgregarCancion4
+            // 
+            this.txtAgregarCancion4.Location = new System.Drawing.Point(569, 90);
+            this.txtAgregarCancion4.Name = "txtAgregarCancion4";
+            this.txtAgregarCancion4.Size = new System.Drawing.Size(100, 20);
+            this.txtAgregarCancion4.TabIndex = 14;
+            // 
+            // txtAgregarCancion3
+            // 
+            this.txtAgregarCancion3.Location = new System.Drawing.Point(569, 63);
+            this.txtAgregarCancion3.Name = "txtAgregarCancion3";
+            this.txtAgregarCancion3.Size = new System.Drawing.Size(100, 20);
+            this.txtAgregarCancion3.TabIndex = 13;
+            // 
+            // txtAgregarCancion2
+            // 
+            this.txtAgregarCancion2.Location = new System.Drawing.Point(569, 37);
+            this.txtAgregarCancion2.Name = "txtAgregarCancion2";
+            this.txtAgregarCancion2.Size = new System.Drawing.Size(100, 20);
+            this.txtAgregarCancion2.TabIndex = 12;
+            // 
+            // txtAgregarCancion1
+            // 
+            this.txtAgregarCancion1.Location = new System.Drawing.Point(569, 10);
+            this.txtAgregarCancion1.Name = "txtAgregarCancion1";
+            this.txtAgregarCancion1.Size = new System.Drawing.Size(100, 20);
+            this.txtAgregarCancion1.TabIndex = 11;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label40.Location = new System.Drawing.Point(493, 13);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(70, 13);
+            this.label40.TabIndex = 10;
+            this.label40.Text = "Some Songs:";
+            // 
+            // txtDateArtista
+            // 
+            this.txtDateArtista.Location = new System.Drawing.Point(385, 36);
+            this.txtDateArtista.Name = "txtDateArtista";
+            this.txtDateArtista.Size = new System.Drawing.Size(100, 20);
+            this.txtDateArtista.TabIndex = 9;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label37.Location = new System.Drawing.Point(271, 37);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(111, 13);
+            this.label37.TabIndex = 8;
+            this.label37.Text = "Fecha de Nacimiento:";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label36.Location = new System.Drawing.Point(335, 8);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(47, 13);
+            this.label36.TabIndex = 7;
+            this.label36.Text = "Nombre:";
+            // 
+            // txtNombreArtista
+            // 
+            this.txtNombreArtista.Location = new System.Drawing.Point(385, 8);
+            this.txtNombreArtista.Name = "txtNombreArtista";
+            this.txtNombreArtista.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreArtista.TabIndex = 6;
+            // 
+            // btnEliminarArtista
+            // 
+            this.btnEliminarArtista.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarArtista.Location = new System.Drawing.Point(460, 333);
+            this.btnEliminarArtista.Name = "btnEliminarArtista";
+            this.btnEliminarArtista.Size = new System.Drawing.Size(94, 23);
+            this.btnEliminarArtista.TabIndex = 5;
+            this.btnEliminarArtista.Text = "ELIMINAR";
+            this.btnEliminarArtista.UseVisualStyleBackColor = true;
+            this.btnEliminarArtista.Click += new System.EventHandler(this.btnEliminarArtista_Click);
+            // 
+            // btnCargarArtista1
+            // 
+            this.btnCargarArtista1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargarArtista1.Location = new System.Drawing.Point(581, 138);
+            this.btnCargarArtista1.Name = "btnCargarArtista1";
+            this.btnCargarArtista1.Size = new System.Drawing.Size(94, 23);
+            this.btnCargarArtista1.TabIndex = 4;
+            this.btnCargarArtista1.Text = "CARGAR";
+            this.btnCargarArtista1.UseVisualStyleBackColor = true;
+            this.btnCargarArtista1.Click += new System.EventHandler(this.btnCargarArtista1_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Location = new System.Drawing.Point(5, 24);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(160, 23);
+            this.label19.TabIndex = 3;
+            this.label19.Text = "Menú Artistas";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Location = new System.Drawing.Point(6, 157);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(44, 13);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "Artistas:";
+            // 
+            // btnVolverdeVerArtistas
+            // 
+            this.btnVolverdeVerArtistas.BackColor = System.Drawing.Color.Red;
+            this.btnVolverdeVerArtistas.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolverdeVerArtistas.Location = new System.Drawing.Point(600, 376);
+            this.btnVolverdeVerArtistas.Name = "btnVolverdeVerArtistas";
+            this.btnVolverdeVerArtistas.Size = new System.Drawing.Size(75, 29);
+            this.btnVolverdeVerArtistas.TabIndex = 1;
+            this.btnVolverdeVerArtistas.Text = "VOLVER";
+            this.btnVolverdeVerArtistas.UseVisualStyleBackColor = false;
+            this.btnVolverdeVerArtistas.Click += new System.EventHandler(this.btnVolverdeVerArtistas_Click);
+            // 
+            // lstArtistas
+            // 
+            this.lstArtistas.FormattingEnabled = true;
+            this.lstArtistas.Location = new System.Drawing.Point(8, 181);
+            this.lstArtistas.Name = "lstArtistas";
+            this.lstArtistas.Size = new System.Drawing.Size(446, 173);
+            this.lstArtistas.TabIndex = 0;
             // 
             // panelVerCanciones
             // 
             this.panelVerCanciones.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelVerCanciones.Controls.Add(this.label60);
+            this.panelVerCanciones.Controls.Add(this.label59);
+            this.panelVerCanciones.Controls.Add(this.label58);
+            this.panelVerCanciones.Controls.Add(this.label57);
+            this.panelVerCanciones.Controls.Add(this.txtDatoCurioso2Cancion);
+            this.panelVerCanciones.Controls.Add(this.txtDatoCurioso1Cancion);
+            this.panelVerCanciones.Controls.Add(this.label56);
             this.panelVerCanciones.Controls.Add(this.txtDateCancion);
             this.panelVerCanciones.Controls.Add(this.label25);
             this.panelVerCanciones.Controls.Add(this.btnEliminarCancion);
@@ -295,7 +558,7 @@
             // 
             // txtDateCancion
             // 
-            this.txtDateCancion.Location = new System.Drawing.Point(570, 92);
+            this.txtDateCancion.Location = new System.Drawing.Point(391, 98);
             this.txtDateCancion.Name = "txtDateCancion";
             this.txtDateCancion.Size = new System.Drawing.Size(100, 20);
             this.txtDateCancion.TabIndex = 13;
@@ -304,7 +567,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label25.Location = new System.Drawing.Point(452, 99);
+            this.label25.Location = new System.Drawing.Point(275, 101);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(110, 13);
             this.label25.TabIndex = 12;
@@ -322,7 +585,7 @@
             // 
             // txtAlbumCancion
             // 
-            this.txtAlbumCancion.Location = new System.Drawing.Point(570, 65);
+            this.txtAlbumCancion.Location = new System.Drawing.Point(391, 72);
             this.txtAlbumCancion.Name = "txtAlbumCancion";
             this.txtAlbumCancion.Size = new System.Drawing.Size(100, 20);
             this.txtAlbumCancion.TabIndex = 10;
@@ -331,7 +594,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label24.Location = new System.Drawing.Point(523, 72);
+            this.label24.Location = new System.Drawing.Point(343, 73);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(39, 13);
             this.label24.TabIndex = 9;
@@ -339,7 +602,7 @@
             // 
             // txtArtistaCancion
             // 
-            this.txtArtistaCancion.Location = new System.Drawing.Point(570, 39);
+            this.txtArtistaCancion.Location = new System.Drawing.Point(391, 46);
             this.txtArtistaCancion.Name = "txtArtistaCancion";
             this.txtArtistaCancion.Size = new System.Drawing.Size(100, 20);
             this.txtArtistaCancion.TabIndex = 8;
@@ -348,7 +611,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label23.Location = new System.Drawing.Point(523, 49);
+            this.label23.Location = new System.Drawing.Point(343, 49);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(39, 13);
             this.label23.TabIndex = 7;
@@ -358,7 +621,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label22.Location = new System.Drawing.Point(517, 21);
+            this.label22.Location = new System.Drawing.Point(335, 22);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(47, 13);
             this.label22.TabIndex = 6;
@@ -366,7 +629,7 @@
             // 
             // txtNombreCancion
             // 
-            this.txtNombreCancion.Location = new System.Drawing.Point(570, 11);
+            this.txtNombreCancion.Location = new System.Drawing.Point(391, 19);
             this.txtNombreCancion.Name = "txtNombreCancion";
             this.txtNombreCancion.Size = new System.Drawing.Size(100, 20);
             this.txtNombreCancion.TabIndex = 5;
@@ -374,7 +637,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(577, 123);
+            this.button2.Location = new System.Drawing.Point(580, 123);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 23);
             this.button2.TabIndex = 4;
@@ -397,7 +660,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(9, 137);
+            this.label11.Location = new System.Drawing.Point(3, 179);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(60, 13);
             this.label11.TabIndex = 2;
@@ -406,9 +669,9 @@
             // lstCanciones
             // 
             this.lstCanciones.FormattingEnabled = true;
-            this.lstCanciones.Location = new System.Drawing.Point(6, 159);
+            this.lstCanciones.Location = new System.Drawing.Point(6, 198);
             this.lstCanciones.Name = "lstCanciones";
-            this.lstCanciones.Size = new System.Drawing.Size(443, 225);
+            this.lstCanciones.Size = new System.Drawing.Size(443, 186);
             this.lstCanciones.TabIndex = 1;
             // 
             // btnSalirPanelVerCanciones
@@ -427,6 +690,18 @@
             // panelVerActores
             // 
             this.panelVerActores.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelVerActores.Controls.Add(this.label50);
+            this.panelVerActores.Controls.Add(this.label49);
+            this.panelVerActores.Controls.Add(this.label48);
+            this.panelVerActores.Controls.Add(this.label47);
+            this.panelVerActores.Controls.Add(this.txtDatoCurioso2Actor);
+            this.panelVerActores.Controls.Add(this.txtDatoCurioso1Actor);
+            this.panelVerActores.Controls.Add(this.label46);
+            this.panelVerActores.Controls.Add(this.txtAgregarPelicula4);
+            this.panelVerActores.Controls.Add(this.txtAgregarPelicula3);
+            this.panelVerActores.Controls.Add(this.txtAgregarPelicula2);
+            this.panelVerActores.Controls.Add(this.txtAgregarPelicula1);
+            this.panelVerActores.Controls.Add(this.label45);
             this.panelVerActores.Controls.Add(this.txtDateActor);
             this.panelVerActores.Controls.Add(this.label39);
             this.panelVerActores.Controls.Add(this.label38);
@@ -446,7 +721,7 @@
             // txtDateActor
             // 
             this.txtDateActor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDateActor.Location = new System.Drawing.Point(444, 117);
+            this.txtDateActor.Location = new System.Drawing.Point(371, 53);
             this.txtDateActor.Name = "txtDateActor";
             this.txtDateActor.Size = new System.Drawing.Size(100, 23);
             this.txtDateActor.TabIndex = 9;
@@ -455,7 +730,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label39.Location = new System.Drawing.Point(323, 127);
+            this.label39.Location = new System.Drawing.Point(257, 58);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(111, 13);
             this.label39.TabIndex = 8;
@@ -465,7 +740,7 @@
             // 
             this.label38.AutoSize = true;
             this.label38.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label38.Location = new System.Drawing.Point(385, 95);
+            this.label38.Location = new System.Drawing.Point(321, 23);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(47, 13);
             this.label38.TabIndex = 7;
@@ -474,7 +749,7 @@
             // txtNombreActor
             // 
             this.txtNombreActor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreActor.Location = new System.Drawing.Point(444, 83);
+            this.txtNombreActor.Location = new System.Drawing.Point(371, 18);
             this.txtNombreActor.Name = "txtNombreActor";
             this.txtNombreActor.Size = new System.Drawing.Size(100, 23);
             this.txtNombreActor.TabIndex = 6;
@@ -504,7 +779,7 @@
             // btnCargarActor
             // 
             this.btnCargarActor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarActor.Location = new System.Drawing.Point(458, 148);
+            this.btnCargarActor.Location = new System.Drawing.Point(576, 154);
             this.btnCargarActor.Name = "btnCargarActor";
             this.btnCargarActor.Size = new System.Drawing.Size(86, 23);
             this.btnCargarActor.TabIndex = 3;
@@ -660,125 +935,16 @@
             this.lstUsuarios.Size = new System.Drawing.Size(458, 186);
             this.lstUsuarios.TabIndex = 0;
             // 
-            // panelVerArtistas
-            // 
-            this.panelVerArtistas.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panelVerArtistas.Controls.Add(this.txtDateArtista);
-            this.panelVerArtistas.Controls.Add(this.label37);
-            this.panelVerArtistas.Controls.Add(this.label36);
-            this.panelVerArtistas.Controls.Add(this.txtNombreArtista);
-            this.panelVerArtistas.Controls.Add(this.btnEliminarArtista);
-            this.panelVerArtistas.Controls.Add(this.btnCargarArtista1);
-            this.panelVerArtistas.Controls.Add(this.label19);
-            this.panelVerArtistas.Controls.Add(this.label12);
-            this.panelVerArtistas.Controls.Add(this.btnVolverdeVerArtistas);
-            this.panelVerArtistas.Controls.Add(this.lstArtistas);
-            this.panelVerArtistas.Location = new System.Drawing.Point(3, 3);
-            this.panelVerArtistas.Name = "panelVerArtistas";
-            this.panelVerArtistas.Size = new System.Drawing.Size(686, 412);
-            this.panelVerArtistas.TabIndex = 26;
-            this.panelVerArtistas.Visible = false;
-            // 
-            // txtDateArtista
-            // 
-            this.txtDateArtista.Location = new System.Drawing.Point(536, 116);
-            this.txtDateArtista.Name = "txtDateArtista";
-            this.txtDateArtista.Size = new System.Drawing.Size(100, 20);
-            this.txtDateArtista.TabIndex = 9;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label37.Location = new System.Drawing.Point(419, 123);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(111, 13);
-            this.label37.TabIndex = 8;
-            this.label37.Text = "Fecha de Nacimiento:";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label36.Location = new System.Drawing.Point(481, 86);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(47, 13);
-            this.label36.TabIndex = 7;
-            this.label36.Text = "Nombre:";
-            // 
-            // txtNombreArtista
-            // 
-            this.txtNombreArtista.Location = new System.Drawing.Point(536, 80);
-            this.txtNombreArtista.Name = "txtNombreArtista";
-            this.txtNombreArtista.Size = new System.Drawing.Size(100, 20);
-            this.txtNombreArtista.TabIndex = 6;
-            // 
-            // btnEliminarArtista
-            // 
-            this.btnEliminarArtista.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarArtista.Location = new System.Drawing.Point(460, 333);
-            this.btnEliminarArtista.Name = "btnEliminarArtista";
-            this.btnEliminarArtista.Size = new System.Drawing.Size(94, 23);
-            this.btnEliminarArtista.TabIndex = 5;
-            this.btnEliminarArtista.Text = "ELIMINAR";
-            this.btnEliminarArtista.UseVisualStyleBackColor = true;
-            this.btnEliminarArtista.Click += new System.EventHandler(this.btnEliminarArtista_Click);
-            // 
-            // btnCargarArtista1
-            // 
-            this.btnCargarArtista1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarArtista1.Location = new System.Drawing.Point(542, 152);
-            this.btnCargarArtista1.Name = "btnCargarArtista1";
-            this.btnCargarArtista1.Size = new System.Drawing.Size(94, 23);
-            this.btnCargarArtista1.TabIndex = 4;
-            this.btnCargarArtista1.Text = "CARGAR";
-            this.btnCargarArtista1.UseVisualStyleBackColor = true;
-            this.btnCargarArtista1.Click += new System.EventHandler(this.btnCargarArtista1_Click);
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.Location = new System.Drawing.Point(5, 24);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(160, 23);
-            this.label19.TabIndex = 3;
-            this.label19.Text = "Menú Artistas";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(6, 157);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(44, 13);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Artistas:";
-            // 
-            // btnVolverdeVerArtistas
-            // 
-            this.btnVolverdeVerArtistas.BackColor = System.Drawing.Color.Red;
-            this.btnVolverdeVerArtistas.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverdeVerArtistas.Location = new System.Drawing.Point(600, 376);
-            this.btnVolverdeVerArtistas.Name = "btnVolverdeVerArtistas";
-            this.btnVolverdeVerArtistas.Size = new System.Drawing.Size(75, 29);
-            this.btnVolverdeVerArtistas.TabIndex = 1;
-            this.btnVolverdeVerArtistas.Text = "VOLVER";
-            this.btnVolverdeVerArtistas.UseVisualStyleBackColor = false;
-            this.btnVolverdeVerArtistas.Click += new System.EventHandler(this.btnVolverdeVerArtistas_Click);
-            // 
-            // lstArtistas
-            // 
-            this.lstArtistas.FormattingEnabled = true;
-            this.lstArtistas.Location = new System.Drawing.Point(8, 181);
-            this.lstArtistas.Name = "lstArtistas";
-            this.lstArtistas.Size = new System.Drawing.Size(446, 173);
-            this.lstArtistas.TabIndex = 0;
-            // 
             // panelVerPeliculas
             // 
             this.panelVerPeliculas.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelVerPeliculas.Controls.Add(this.label55);
+            this.panelVerPeliculas.Controls.Add(this.label54);
+            this.panelVerPeliculas.Controls.Add(this.label53);
+            this.panelVerPeliculas.Controls.Add(this.label52);
+            this.panelVerPeliculas.Controls.Add(this.txtDatoCurioso2Pelicula);
+            this.panelVerPeliculas.Controls.Add(this.txtDatoCurioso1Pelicula);
+            this.panelVerPeliculas.Controls.Add(this.label51);
             this.panelVerPeliculas.Controls.Add(this.btnEliminarPelicula);
             this.panelVerPeliculas.Controls.Add(this.btnCargarPelicula);
             this.panelVerPeliculas.Controls.Add(this.txtDatePelicula);
@@ -813,7 +979,7 @@
             // btnCargarPelicula
             // 
             this.btnCargarPelicula.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarPelicula.Location = new System.Drawing.Point(542, 150);
+            this.btnCargarPelicula.Location = new System.Drawing.Point(566, 157);
             this.btnCargarPelicula.Name = "btnCargarPelicula";
             this.btnCargarPelicula.Size = new System.Drawing.Size(93, 23);
             this.btnCargarPelicula.TabIndex = 12;
@@ -823,28 +989,28 @@
             // 
             // txtDatePelicula
             // 
-            this.txtDatePelicula.Location = new System.Drawing.Point(535, 119);
+            this.txtDatePelicula.Location = new System.Drawing.Point(346, 116);
             this.txtDatePelicula.Name = "txtDatePelicula";
             this.txtDatePelicula.Size = new System.Drawing.Size(100, 20);
             this.txtDatePelicula.TabIndex = 11;
             // 
             // txtDirector
             // 
-            this.txtDirector.Location = new System.Drawing.Point(535, 91);
+            this.txtDirector.Location = new System.Drawing.Point(346, 87);
             this.txtDirector.Name = "txtDirector";
             this.txtDirector.Size = new System.Drawing.Size(100, 20);
             this.txtDirector.TabIndex = 10;
             // 
             // txtActorPelicula
             // 
-            this.txtActorPelicula.Location = new System.Drawing.Point(535, 64);
+            this.txtActorPelicula.Location = new System.Drawing.Point(346, 59);
             this.txtActorPelicula.Name = "txtActorPelicula";
             this.txtActorPelicula.Size = new System.Drawing.Size(100, 20);
             this.txtActorPelicula.TabIndex = 9;
             // 
             // txtNombrePelicula
             // 
-            this.txtNombrePelicula.Location = new System.Drawing.Point(535, 35);
+            this.txtNombrePelicula.Location = new System.Drawing.Point(346, 31);
             this.txtNombrePelicula.Name = "txtNombrePelicula";
             this.txtNombrePelicula.Size = new System.Drawing.Size(100, 20);
             this.txtNombrePelicula.TabIndex = 8;
@@ -854,7 +1020,7 @@
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label33.Location = new System.Drawing.Point(416, 122);
+            this.label33.Location = new System.Drawing.Point(235, 119);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(113, 13);
             this.label33.TabIndex = 7;
@@ -865,7 +1031,7 @@
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label32.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label32.Location = new System.Drawing.Point(481, 94);
+            this.label32.Location = new System.Drawing.Point(301, 90);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(47, 13);
             this.label32.TabIndex = 6;
@@ -876,7 +1042,7 @@
             this.label31.AutoSize = true;
             this.label31.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label31.Location = new System.Drawing.Point(420, 67);
+            this.label31.Location = new System.Drawing.Point(239, 62);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(109, 13);
             this.label31.TabIndex = 5;
@@ -887,7 +1053,7 @@
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label30.Location = new System.Drawing.Point(472, 42);
+            this.label30.Location = new System.Drawing.Point(301, 34);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(47, 13);
             this.label30.TabIndex = 4;
@@ -931,9 +1097,9 @@
             // lstPeliculas
             // 
             this.lstPeliculas.FormattingEnabled = true;
-            this.lstPeliculas.Location = new System.Drawing.Point(18, 188);
+            this.lstPeliculas.Location = new System.Drawing.Point(18, 175);
             this.lstPeliculas.Name = "lstPeliculas";
-            this.lstPeliculas.Size = new System.Drawing.Size(457, 160);
+            this.lstPeliculas.Size = new System.Drawing.Size(457, 173);
             this.lstPeliculas.TabIndex = 0;
             // 
             // panelVerPlaylists
@@ -1245,11 +1411,252 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label45.Location = new System.Drawing.Point(485, 23);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(74, 13);
+            this.label45.TabIndex = 10;
+            this.label45.Text = "Some Movies:";
+            // 
+            // txtAgregarPelicula1
+            // 
+            this.txtAgregarPelicula1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAgregarPelicula1.Location = new System.Drawing.Point(562, 18);
+            this.txtAgregarPelicula1.Name = "txtAgregarPelicula1";
+            this.txtAgregarPelicula1.Size = new System.Drawing.Size(100, 23);
+            this.txtAgregarPelicula1.TabIndex = 11;
+            // 
+            // txtAgregarPelicula2
+            // 
+            this.txtAgregarPelicula2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAgregarPelicula2.Location = new System.Drawing.Point(562, 46);
+            this.txtAgregarPelicula2.Name = "txtAgregarPelicula2";
+            this.txtAgregarPelicula2.Size = new System.Drawing.Size(100, 23);
+            this.txtAgregarPelicula2.TabIndex = 12;
+            // 
+            // txtAgregarPelicula3
+            // 
+            this.txtAgregarPelicula3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAgregarPelicula3.Location = new System.Drawing.Point(562, 75);
+            this.txtAgregarPelicula3.Name = "txtAgregarPelicula3";
+            this.txtAgregarPelicula3.Size = new System.Drawing.Size(100, 23);
+            this.txtAgregarPelicula3.TabIndex = 13;
+            // 
+            // txtAgregarPelicula4
+            // 
+            this.txtAgregarPelicula4.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAgregarPelicula4.Location = new System.Drawing.Point(562, 103);
+            this.txtAgregarPelicula4.Name = "txtAgregarPelicula4";
+            this.txtAgregarPelicula4.Size = new System.Drawing.Size(100, 23);
+            this.txtAgregarPelicula4.TabIndex = 14;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label46.Location = new System.Drawing.Point(269, 103);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(99, 13);
+            this.label46.TabIndex = 15;
+            this.label46.Text = "Datos Interesantes:";
+            // 
+            // txtDatoCurioso1Actor
+            // 
+            this.txtDatoCurioso1Actor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDatoCurioso1Actor.Location = new System.Drawing.Point(371, 100);
+            this.txtDatoCurioso1Actor.Name = "txtDatoCurioso1Actor";
+            this.txtDatoCurioso1Actor.Size = new System.Drawing.Size(100, 23);
+            this.txtDatoCurioso1Actor.TabIndex = 16;
+            // 
+            // txtDatoCurioso2Actor
+            // 
+            this.txtDatoCurioso2Actor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDatoCurioso2Actor.Location = new System.Drawing.Point(371, 129);
+            this.txtDatoCurioso2Actor.Name = "txtDatoCurioso2Actor";
+            this.txtDatoCurioso2Actor.Size = new System.Drawing.Size(100, 23);
+            this.txtDatoCurioso2Actor.TabIndex = 17;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label47.Location = new System.Drawing.Point(574, 189);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(91, 13);
+            this.label47.TabIndex = 18;
+            this.label47.Text = "Antes de pulsar el";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label48.Location = new System.Drawing.Point(574, 202);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(99, 13);
+            this.label48.TabIndex = 19;
+            this.label48.Text = "botón cargar debes";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label49.Location = new System.Drawing.Point(574, 215);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(80, 13);
+            this.label49.TabIndex = 20;
+            this.label49.Text = "llenar todos los ";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label50.Location = new System.Drawing.Point(574, 228);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(41, 13);
+            this.label50.TabIndex = 21;
+            this.label50.Text = "textbox";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label51.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label51.Location = new System.Drawing.Point(479, 32);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(81, 13);
+            this.label51.TabIndex = 14;
+            this.label51.Text = "Datos Curiosos:";
+            // 
+            // txtDatoCurioso1Pelicula
+            // 
+            this.txtDatoCurioso1Pelicula.Location = new System.Drawing.Point(559, 31);
+            this.txtDatoCurioso1Pelicula.Name = "txtDatoCurioso1Pelicula";
+            this.txtDatoCurioso1Pelicula.Size = new System.Drawing.Size(100, 20);
+            this.txtDatoCurioso1Pelicula.TabIndex = 15;
+            // 
+            // txtDatoCurioso2Pelicula
+            // 
+            this.txtDatoCurioso2Pelicula.Location = new System.Drawing.Point(559, 57);
+            this.txtDatoCurioso2Pelicula.Name = "txtDatoCurioso2Pelicula";
+            this.txtDatoCurioso2Pelicula.Size = new System.Drawing.Size(100, 20);
+            this.txtDatoCurioso2Pelicula.TabIndex = 16;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label52.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label52.Location = new System.Drawing.Point(563, 189);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(93, 13);
+            this.label52.TabIndex = 17;
+            this.label52.Text = "Antes de cargar la";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label53.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label53.Location = new System.Drawing.Point(566, 202);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(77, 13);
+            this.label53.TabIndex = 18;
+            this.label53.Text = "película debes";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label54.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label54.Location = new System.Drawing.Point(566, 215);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(86, 13);
+            this.label54.TabIndex = 19;
+            this.label54.Text = "rellenar todos los";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label55.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label55.Location = new System.Drawing.Point(566, 228);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(41, 13);
+            this.label55.TabIndex = 20;
+            this.label55.Text = "textbox";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label56.Location = new System.Drawing.Point(498, 22);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(80, 13);
+            this.label56.TabIndex = 14;
+            this.label56.Text = "Datos curiosos:";
+            // 
+            // txtDatoCurioso1Cancion
+            // 
+            this.txtDatoCurioso1Cancion.Location = new System.Drawing.Point(578, 21);
+            this.txtDatoCurioso1Cancion.Name = "txtDatoCurioso1Cancion";
+            this.txtDatoCurioso1Cancion.Size = new System.Drawing.Size(100, 20);
+            this.txtDatoCurioso1Cancion.TabIndex = 15;
+            // 
+            // txtDatoCurioso2Cancion
+            // 
+            this.txtDatoCurioso2Cancion.Location = new System.Drawing.Point(578, 49);
+            this.txtDatoCurioso2Cancion.Name = "txtDatoCurioso2Cancion";
+            this.txtDatoCurioso2Cancion.Size = new System.Drawing.Size(100, 20);
+            this.txtDatoCurioso2Cancion.TabIndex = 16;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label57.Location = new System.Drawing.Point(581, 160);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(93, 13);
+            this.label57.TabIndex = 17;
+            this.label57.Text = "Antes de cargar la";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label58.Location = new System.Drawing.Point(581, 176);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(92, 13);
+            this.label58.TabIndex = 18;
+            this.label58.Text = "canción debes re-";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label59.Location = new System.Drawing.Point(581, 189);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(77, 13);
+            this.label59.TabIndex = 19;
+            this.label59.Text = "llenar todos los";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label60.Location = new System.Drawing.Point(583, 204);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(41, 13);
+            this.label60.TabIndex = 20;
+            this.label60.Text = "textbox";
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(686, 414);
+            this.ClientSize = new System.Drawing.Size(687, 414);
             this.Controls.Add(this.panelMenuAdmin);
             this.Controls.Add(this.lblErrorLogIn);
             this.Controls.Add(this.label3);
@@ -1268,14 +1675,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
             this.panelMenuAdmin.ResumeLayout(false);
             this.panelMenuAdmin.PerformLayout();
+            this.panelVerArtistas.ResumeLayout(false);
+            this.panelVerArtistas.PerformLayout();
             this.panelVerCanciones.ResumeLayout(false);
             this.panelVerCanciones.PerformLayout();
             this.panelVerActores.ResumeLayout(false);
             this.panelVerActores.PerformLayout();
             this.panelVerUsuarios.ResumeLayout(false);
             this.panelVerUsuarios.PerformLayout();
-            this.panelVerArtistas.ResumeLayout(false);
-            this.panelVerArtistas.PerformLayout();
             this.panelVerPeliculas.ResumeLayout(false);
             this.panelVerPeliculas.PerformLayout();
             this.panelVerPlaylists.ResumeLayout(false);
@@ -1391,5 +1798,42 @@
         private System.Windows.Forms.TextBox txtDateActor;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.TextBox txtAgregarCancion1;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.TextBox txtAgregarCancion2;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.TextBox txtDatoCurioso2;
+        private System.Windows.Forms.TextBox txtDatoCurioso1;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.TextBox txtAgregarCancion4;
+        private System.Windows.Forms.TextBox txtAgregarCancion3;
+        private System.Windows.Forms.TextBox txtDatoCurioso2Actor;
+        private System.Windows.Forms.TextBox txtDatoCurioso1Actor;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.TextBox txtAgregarPelicula4;
+        private System.Windows.Forms.TextBox txtAgregarPelicula3;
+        private System.Windows.Forms.TextBox txtAgregarPelicula2;
+        private System.Windows.Forms.TextBox txtAgregarPelicula1;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.TextBox txtDatoCurioso2Pelicula;
+        private System.Windows.Forms.TextBox txtDatoCurioso1Pelicula;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.TextBox txtDatoCurioso2Cancion;
+        private System.Windows.Forms.TextBox txtDatoCurioso1Cancion;
+        private System.Windows.Forms.Label label56;
     }
 }

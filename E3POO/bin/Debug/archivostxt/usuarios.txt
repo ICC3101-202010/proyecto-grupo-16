@@ -2,3 +2,6 @@ Nombre: Admin Mail: admin@spotflix.cl
 
 
 Nombre: Matias Rojas Mail: mfrojas@gmail.com
+
+
+Nombre: Holaqtal Mail: holaqtal@gmail.com
