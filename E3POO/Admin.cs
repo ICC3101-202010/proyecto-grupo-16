@@ -341,7 +341,7 @@ namespace E3POO
 
             StreamWriter sw2 = new StreamWriter(Application.StartupPath + "\\archivostxt\\Info\\info - " + txtNombreCancion.Text.ToLower() + ".txt", true);
 
-            sw2.WriteLine("Nombre: " + txtNombreCancion.Text + "Fecha de Lanzamiento: " + txtDateCancion.Text);
+            sw2.WriteLine("Nombre: " + txtNombreCancion.Text + "Fecha de Lanzamiento: " + txtDateCancion.Text + " Album: "+txtAlbumCancion.Text);
             sw2.WriteLine("Artista: " + txtArtistaCancion.Text);
 
             sw2.WriteLine("\n"+"Algunos datos interesantes de la canción:");

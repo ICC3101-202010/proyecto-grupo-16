@@ -1,13 +1,3 @@
 Nombre: Yellow Album: Parachutes Artista: Coldplay Fecha de Lanzamiento: 2000
 
-
-Nombre: Puente Album: Bocanada Artista: Gustao Cerati Fecha de Lanzamiento: 1999
-
-
-Nombre: Profugos Album: Obras Cumbres Artista: Soda Stereo Fecha de Lanzamiento: 1986
-
-
-Nombre: En la Ciudad de la Furia Album: Obras Cumbres Artista: Soda Stereo Fecha de Lanzamiento: 1980
-
-
-Nombre: Crimen Album: fsafds Artista: Gustavo Cerati Fecha de Lanzamiento: gdfgdf
+Nombre: Crimen Album: Ahí Vamos Artista: Gustavo Cerati Fecha de Lanzamiento: 2006

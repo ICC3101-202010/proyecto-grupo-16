@@ -4,11 +4,13 @@ usuario de Spotflix para la versión 2.0
 Al momento de abrir la aplicación el usuario podrá ver 
 el "Menú Usuario Spotflix" el cual cuenta con una imagen
 inactiva mostrando el logo de la aplicación. Aparecerán 
-dos botones, cada uno con un nombre incluido el cuál 
+tres botones, cada uno con un nombre incluido el cuál 
 advierte que opciones se podrán ver luego de pulsarlos, 
 el botón Canciones abrirá un Forms dedicado a la división 
 de canciones, el botón Películas abrirá un Forms dedicado 
-a la división de películas. Además en la esquina inferior
+a la división de películas y por último el botón Suscripción
+Premium abrirá un panel dedicado a pagar la suscripción
+y así dejar de ver Ads. Además en la esquina inferior
 derecha hay un botón con la etiqueta Salir, el cual
 directamente cierra la aplicación.
 
@@ -19,6 +21,14 @@ Si se pulsa el botón N:
 - Se activará el modo Noche de la aplicacion, 
 con colores y fondos más oscuros.
 
+Si se pulsa el botón Suscripción Premium:
+- Con esto podrás aumentar el nivel de tu aplicación y dejar
+de ver los Ads dentro de ésta, y por si fuera poco, la mejora es
+para tu aplicación, es decir, todos los usuarios que entren en tu
+aplicación dejarán de ver esas molestas Ads. La suscripción
+Premium durará un mes, luego se debe renovar manualmente, esto
+para evitar cargos indeseados y una continua revisión de la
+aplicación.
 
 Si se pulsa el botón Películas:
 - Se abrirá un forms llamado Movies bastante sencillo en donde se podrá
@@ -79,7 +89,26 @@ que no se pueden descargar.
 Para volver el menú inicial: Se utliza el botón volver ubicado en la esquina
 superior derecha, éste cerrará el formulario.
 
-
+Contrato de Uso:
+Al aceptar el Contrato de Uso usted está de acuerdo en:
+- Entregar parte de su información personal como nombre, email,
+contraseña y número telefónico, estos datos se guardarán en
+nuestra base de datos y no será publicada por ningún motivo.
+- Aceptar las bases de uso personal y social, que tienen en cuenta
+los copyright de las canciones y de películas, las licencias sólo
+están presentes en la aplicación.
+- Políticas de privacidad, su información personal no será expuesta ni
+se podrá busca la información personal de otros usuarios, además de su
+nombre de usuario.
+- Casos de Baneo:
+- Adentrarse en las bases de datos de la aplicación y extraer información,
+aunque te lo advertimos, no llegarás ahí de ninguna manera, no trates de
+hacerlo!
+- Descargar y compartir sin licencia las canciones por fuera de la
+aplicación.
+Si deseas algún cambio, tienes una crítica constructiva o tu aplicación
+presenta problemas, ¡No te preocupes! envía un correo a mfrojas@miuandes.cl
+y te responderemos con la solución respectiva.
 
 Matías Rojas G. Editor y fundador de SpotFlix.
 
