@@ -1,0 +1,58 @@
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\TestGround2\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\TestGround2\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\TestGround2\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\TestGround2\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\TestGround2\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\TestGround2\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache

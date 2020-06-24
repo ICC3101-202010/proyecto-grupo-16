@@ -1,0 +1,271 @@
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.exe.config
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.exe.config
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\TestGround2\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.exe.config
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.exe
+C:\Users\SEBASTIÁN\Desktop\RepProyectoCurso\ProyectoEntrega3MatíasB,MatíasR\obj\Debug\ProyectoEntrega3MatíasB,MatíasR.pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Entrega 3 MatíasBustos\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Nueva carpeta\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\trash\Test-GitignoreProy\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\LAST UPDATE PROY\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.SongMovieFormatShow.resources
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.SongMovieFormatShow.resources
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\AppConBotones ersonalizados\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.SongMovieFormatShow.resources
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\AppPersonalizada\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.SongMovieFormatShow.resources
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\AppConWindowForm\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.SongMovieFormatShow.resources
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.PlaylistFormatUserController.resources

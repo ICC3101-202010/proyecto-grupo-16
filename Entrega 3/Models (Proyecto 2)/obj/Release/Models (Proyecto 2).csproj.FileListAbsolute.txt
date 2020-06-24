@@ -1,0 +1,30 @@
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\ProyectoEntrega3MatíasB,MatíasR\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Proyecto POO Matías Bustos\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Movies\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\Fix Menu Normal User\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\bin\Release\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\AppConWMP\Models (Proyecto 2)\obj\Release\Models (Proyecto 2).pdb
