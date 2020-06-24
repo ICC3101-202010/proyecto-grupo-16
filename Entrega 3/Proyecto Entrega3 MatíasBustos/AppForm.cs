@@ -122,22 +122,22 @@ namespace ProyectoEntrega3MatíasB_MatíasR
             openFileDialog.Filter = "png|*.png|jpg|*.jpg";
             openFileDialog.FilterIndex = 2;
             openFileDialog.RestoreDirectory = true;
-            string filePath;
+            string filePathImgMovie;
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
 
-                filePath = openFileDialog.FileName;
+                filePathImgMovie = openFileDialog.FileName;
 
                 //Lee el contenido del archivo en un stream
-                var file = File.OpenRead(filePath);
-
+                var file = File.OpenRead(filePathImgMovie);
+                string FileNameImagMovie;
                 //Obtiene el nombre del archivo del filePath
-                filenameM = Path.GetFileName(filePath);
+                FileNameImagMovie = Path.GetFileName(filePathImgMovie);
 
-                MovieImageFileName = filenameM;
+                MovieImageFileName = FileNameImagMovie;
 
                 //Se crea una pelicula vacia (de cualquier tipo de formato agregado al filtro)
-                Stream MovieCopy = new FileStream(filenameM, FileMode.CreateNew, FileAccess.ReadWrite, FileShare.ReadWrite);
+                Stream MovieCopy = new FileStream(FileNameImagMovie, FileMode.CreateNew, FileAccess.ReadWrite, FileShare.ReadWrite);
 
                 //Se copia el stream de la pelicula agregada al archivo vacio en la carpeta debug
                 file.CopyTo(MovieCopy);
@@ -2302,37 +2302,7 @@ namespace ProyectoEntrega3MatíasB_MatíasR
             else
             {
             }
-           /*
-            if (ClickCounterReproductions == 0)
-            {
-                LastFilePathReproduce = FilePath;
-                //PlayAndStopButton.BackgroundImage = Image.FromFile(GetNewFilePath(DebugPath, "StopBottonUpdate.png"));
-            }
-            if(ClickCounterReproductions >=0 && LastFilePathReproduce == FilePath)
-            {
-                //player.controls.stop();
-                //player.URL = FilePath;
-                //axWindowsMediaPlayer1.Ctlcontrols.stop();
-                axWindowsMediaPlayer1.URL = FilePath;
-                axWindowsMediaPlayer1.Ctlcontrols.stop();
-                axWindowsMediaPlayer1.Ctlcontrols.play();
-                
-                //player.controls.play();
-
-            }
-            else if(ClickCounterReproductions > 0 && LastFilePathReproduce!= FilePath)
-            {
-                //player.controls.stop();
-
-                //player.URL = FilePath;
-                axWindowsMediaPlayer1.URL = FilePath;
-                //player.controls.play();
-                axWindowsMediaPlayer1.Ctlcontrols.stop();
-                axWindowsMediaPlayer1.Ctlcontrols.play();
-            }
-            ClickCounterReproductions++;
-            LastFilePathReproduce = FilePath;
-            */
+           
         }
 
         //Aqui va mostrar la información completa de la canción 

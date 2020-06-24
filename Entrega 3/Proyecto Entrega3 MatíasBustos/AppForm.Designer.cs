@@ -61,6 +61,16 @@
             this.FavMoviesUsrPanel = new System.Windows.Forms.Panel();
             this.PlaylistSongPanel = new System.Windows.Forms.Panel();
             this.PlaylistLastFormatSongOrMovieClickedInfo = new System.Windows.Forms.Panel();
+            this.PlaylistMoviePanel = new System.Windows.Forms.Panel();
+            this.AddNewPlaylistMConfirmationButton = new System.Windows.Forms.Button();
+            this.SelectFiletypeNewPlyMComboBox = new System.Windows.Forms.ComboBox();
+            this.NameNewPlaylistMTextBox = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.ShowPlaylistMUsrLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.PlaylistMlbl = new System.Windows.Forms.Label();
             this.ShowSongsInPlaylistLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.NamePlaylistClickedlbl = new System.Windows.Forms.Label();
             this.AddnewPlaylisSongConfirmationButton = new System.Windows.Forms.Button();
@@ -183,16 +193,6 @@
             this.AddNewMovieButton = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.PlaylistMlbl = new System.Windows.Forms.Label();
-            this.ShowPlaylistMUsrLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.NameNewPlaylistMTextBox = new System.Windows.Forms.TextBox();
-            this.SelectFiletypeNewPlyMComboBox = new System.Windows.Forms.ComboBox();
-            this.AddNewPlaylistMConfirmationButton = new System.Windows.Forms.Button();
-            this.PlaylistMoviePanel = new System.Windows.Forms.Panel();
             this.NewUserPanel.SuspendLayout();
             this.AdminMenuPanel.SuspendLayout();
             this.AddNewMoviesPanel.SuspendLayout();
@@ -204,6 +204,7 @@
             this.FavMoviesUsrPanel.SuspendLayout();
             this.PlaylistSongPanel.SuspendLayout();
             this.PlaylistLastFormatSongOrMovieClickedInfo.SuspendLayout();
+            this.PlaylistMoviePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).BeginInit();
             this.DiplayOptionsUserPanel.SuspendLayout();
             this.OnAddSongOrMovieToPlaylistPanel.SuspendLayout();
@@ -212,7 +213,6 @@
             this.DisplayActualMusicOrVideoPlayerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AlbumImgOrMovieImgPictureBox)).BeginInit();
-            this.PlaylistMoviePanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -645,6 +645,116 @@
             this.PlaylistLastFormatSongOrMovieClickedInfo.Size = new System.Drawing.Size(1174, 594);
             this.PlaylistLastFormatSongOrMovieClickedInfo.TabIndex = 32;
             this.PlaylistLastFormatSongOrMovieClickedInfo.Visible = false;
+            // 
+            // PlaylistMoviePanel
+            // 
+            this.PlaylistMoviePanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PlaylistMoviePanel.AutoScroll = true;
+            this.PlaylistMoviePanel.Controls.Add(this.AddNewPlaylistMConfirmationButton);
+            this.PlaylistMoviePanel.Controls.Add(this.SelectFiletypeNewPlyMComboBox);
+            this.PlaylistMoviePanel.Controls.Add(this.NameNewPlaylistMTextBox);
+            this.PlaylistMoviePanel.Controls.Add(this.label55);
+            this.PlaylistMoviePanel.Controls.Add(this.label56);
+            this.PlaylistMoviePanel.Controls.Add(this.label57);
+            this.PlaylistMoviePanel.Controls.Add(this.label58);
+            this.PlaylistMoviePanel.Controls.Add(this.ShowPlaylistMUsrLayoutPanel);
+            this.PlaylistMoviePanel.Controls.Add(this.PlaylistMlbl);
+            this.PlaylistMoviePanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.PlaylistMoviePanel.Location = new System.Drawing.Point(0, 0);
+            this.PlaylistMoviePanel.Name = "PlaylistMoviePanel";
+            this.PlaylistMoviePanel.Size = new System.Drawing.Size(1174, 594);
+            this.PlaylistMoviePanel.TabIndex = 27;
+            this.PlaylistMoviePanel.Visible = false;
+            // 
+            // AddNewPlaylistMConfirmationButton
+            // 
+            this.AddNewPlaylistMConfirmationButton.Location = new System.Drawing.Point(688, 234);
+            this.AddNewPlaylistMConfirmationButton.Name = "AddNewPlaylistMConfirmationButton";
+            this.AddNewPlaylistMConfirmationButton.Size = new System.Drawing.Size(198, 23);
+            this.AddNewPlaylistMConfirmationButton.TabIndex = 31;
+            this.AddNewPlaylistMConfirmationButton.Text = "Agregar Playlist";
+            this.AddNewPlaylistMConfirmationButton.UseVisualStyleBackColor = true;
+            this.AddNewPlaylistMConfirmationButton.Click += new System.EventHandler(this.AddNewPlaylistMConfirmationButton_Click);
+            // 
+            // SelectFiletypeNewPlyMComboBox
+            // 
+            this.SelectFiletypeNewPlyMComboBox.FormattingEnabled = true;
+            this.SelectFiletypeNewPlyMComboBox.Items.AddRange(new object[] {
+            "mp4",
+            "avi"});
+            this.SelectFiletypeNewPlyMComboBox.Location = new System.Drawing.Point(688, 198);
+            this.SelectFiletypeNewPlyMComboBox.Name = "SelectFiletypeNewPlyMComboBox";
+            this.SelectFiletypeNewPlyMComboBox.Size = new System.Drawing.Size(200, 21);
+            this.SelectFiletypeNewPlyMComboBox.TabIndex = 30;
+            // 
+            // NameNewPlaylistMTextBox
+            // 
+            this.NameNewPlaylistMTextBox.Location = new System.Drawing.Point(688, 168);
+            this.NameNewPlaylistMTextBox.Name = "NameNewPlaylistMTextBox";
+            this.NameNewPlaylistMTextBox.Size = new System.Drawing.Size(198, 20);
+            this.NameNewPlaylistMTextBox.TabIndex = 29;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.White;
+            this.label55.Location = new System.Drawing.Point(575, 205);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(105, 16);
+            this.label55.TabIndex = 28;
+            this.label55.Text = "Tipo de archivo:";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.White;
+            this.label56.Location = new System.Drawing.Point(575, 171);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(60, 16);
+            this.label56.TabIndex = 27;
+            this.label56.Text = "Nombre:";
+            // 
+            // label57
+            // 
+            this.label57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label57.Location = new System.Drawing.Point(576, 135);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(494, 1);
+            this.label57.TabIndex = 26;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.White;
+            this.label58.Location = new System.Drawing.Point(572, 96);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(286, 20);
+            this.label58.TabIndex = 25;
+            this.label58.Text = "Agregar nueva playlist de peliculas";
+            // 
+            // ShowPlaylistMUsrLayoutPanel
+            // 
+            this.ShowPlaylistMUsrLayoutPanel.AutoScroll = true;
+            this.ShowPlaylistMUsrLayoutPanel.Location = new System.Drawing.Point(47, 98);
+            this.ShowPlaylistMUsrLayoutPanel.Name = "ShowPlaylistMUsrLayoutPanel";
+            this.ShowPlaylistMUsrLayoutPanel.Size = new System.Drawing.Size(400, 476);
+            this.ShowPlaylistMUsrLayoutPanel.TabIndex = 2;
+            // 
+            // PlaylistMlbl
+            // 
+            this.PlaylistMlbl.AutoSize = true;
+            this.PlaylistMlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PlaylistMlbl.ForeColor = System.Drawing.Color.White;
+            this.PlaylistMlbl.Location = new System.Drawing.Point(42, 29);
+            this.PlaylistMlbl.Name = "PlaylistMlbl";
+            this.PlaylistMlbl.Size = new System.Drawing.Size(248, 25);
+            this.PlaylistMlbl.TabIndex = 0;
+            this.PlaylistMlbl.Text = "Tus playlist de peliculas:";
             // 
             // ShowSongsInPlaylistLayoutPanel
             // 
@@ -1812,116 +1922,6 @@
             this.label12.TabIndex = 12;
             this.label12.Text = "S&&M-[Streaming]";
             // 
-            // PlaylistMlbl
-            // 
-            this.PlaylistMlbl.AutoSize = true;
-            this.PlaylistMlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlaylistMlbl.ForeColor = System.Drawing.Color.White;
-            this.PlaylistMlbl.Location = new System.Drawing.Point(42, 29);
-            this.PlaylistMlbl.Name = "PlaylistMlbl";
-            this.PlaylistMlbl.Size = new System.Drawing.Size(248, 25);
-            this.PlaylistMlbl.TabIndex = 0;
-            this.PlaylistMlbl.Text = "Tus playlist de peliculas:";
-            // 
-            // ShowPlaylistMUsrLayoutPanel
-            // 
-            this.ShowPlaylistMUsrLayoutPanel.AutoScroll = true;
-            this.ShowPlaylistMUsrLayoutPanel.Location = new System.Drawing.Point(47, 98);
-            this.ShowPlaylistMUsrLayoutPanel.Name = "ShowPlaylistMUsrLayoutPanel";
-            this.ShowPlaylistMUsrLayoutPanel.Size = new System.Drawing.Size(400, 476);
-            this.ShowPlaylistMUsrLayoutPanel.TabIndex = 2;
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.Color.White;
-            this.label58.Location = new System.Drawing.Point(572, 96);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(286, 20);
-            this.label58.TabIndex = 25;
-            this.label58.Text = "Agregar nueva playlist de peliculas";
-            // 
-            // label57
-            // 
-            this.label57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label57.Location = new System.Drawing.Point(576, 135);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(494, 1);
-            this.label57.TabIndex = 26;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.ForeColor = System.Drawing.Color.White;
-            this.label56.Location = new System.Drawing.Point(575, 171);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(60, 16);
-            this.label56.TabIndex = 27;
-            this.label56.Text = "Nombre:";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.ForeColor = System.Drawing.Color.White;
-            this.label55.Location = new System.Drawing.Point(575, 205);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(105, 16);
-            this.label55.TabIndex = 28;
-            this.label55.Text = "Tipo de archivo:";
-            // 
-            // NameNewPlaylistMTextBox
-            // 
-            this.NameNewPlaylistMTextBox.Location = new System.Drawing.Point(688, 168);
-            this.NameNewPlaylistMTextBox.Name = "NameNewPlaylistMTextBox";
-            this.NameNewPlaylistMTextBox.Size = new System.Drawing.Size(198, 20);
-            this.NameNewPlaylistMTextBox.TabIndex = 29;
-            // 
-            // SelectFiletypeNewPlyMComboBox
-            // 
-            this.SelectFiletypeNewPlyMComboBox.FormattingEnabled = true;
-            this.SelectFiletypeNewPlyMComboBox.Items.AddRange(new object[] {
-            "mp4",
-            "avi"});
-            this.SelectFiletypeNewPlyMComboBox.Location = new System.Drawing.Point(688, 198);
-            this.SelectFiletypeNewPlyMComboBox.Name = "SelectFiletypeNewPlyMComboBox";
-            this.SelectFiletypeNewPlyMComboBox.Size = new System.Drawing.Size(200, 21);
-            this.SelectFiletypeNewPlyMComboBox.TabIndex = 30;
-            // 
-            // AddNewPlaylistMConfirmationButton
-            // 
-            this.AddNewPlaylistMConfirmationButton.Location = new System.Drawing.Point(688, 234);
-            this.AddNewPlaylistMConfirmationButton.Name = "AddNewPlaylistMConfirmationButton";
-            this.AddNewPlaylistMConfirmationButton.Size = new System.Drawing.Size(198, 23);
-            this.AddNewPlaylistMConfirmationButton.TabIndex = 31;
-            this.AddNewPlaylistMConfirmationButton.Text = "Agregar Playlist";
-            this.AddNewPlaylistMConfirmationButton.UseVisualStyleBackColor = true;
-            this.AddNewPlaylistMConfirmationButton.Click += new System.EventHandler(this.AddNewPlaylistMConfirmationButton_Click);
-            // 
-            // PlaylistMoviePanel
-            // 
-            this.PlaylistMoviePanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PlaylistMoviePanel.AutoScroll = true;
-            this.PlaylistMoviePanel.Controls.Add(this.AddNewPlaylistMConfirmationButton);
-            this.PlaylistMoviePanel.Controls.Add(this.SelectFiletypeNewPlyMComboBox);
-            this.PlaylistMoviePanel.Controls.Add(this.NameNewPlaylistMTextBox);
-            this.PlaylistMoviePanel.Controls.Add(this.label55);
-            this.PlaylistMoviePanel.Controls.Add(this.label56);
-            this.PlaylistMoviePanel.Controls.Add(this.label57);
-            this.PlaylistMoviePanel.Controls.Add(this.label58);
-            this.PlaylistMoviePanel.Controls.Add(this.ShowPlaylistMUsrLayoutPanel);
-            this.PlaylistMoviePanel.Controls.Add(this.PlaylistMlbl);
-            this.PlaylistMoviePanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.PlaylistMoviePanel.Location = new System.Drawing.Point(0, 0);
-            this.PlaylistMoviePanel.Name = "PlaylistMoviePanel";
-            this.PlaylistMoviePanel.Size = new System.Drawing.Size(1174, 594);
-            this.PlaylistMoviePanel.TabIndex = 27;
-            this.PlaylistMoviePanel.Visible = false;
-            // 
             // AppForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1962,6 +1962,8 @@
             this.PlaylistSongPanel.PerformLayout();
             this.PlaylistLastFormatSongOrMovieClickedInfo.ResumeLayout(false);
             this.PlaylistLastFormatSongOrMovieClickedInfo.PerformLayout();
+            this.PlaylistMoviePanel.ResumeLayout(false);
+            this.PlaylistMoviePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).EndInit();
             this.DiplayOptionsUserPanel.ResumeLayout(false);
             this.DiplayOptionsUserPanel.PerformLayout();
@@ -1973,8 +1975,6 @@
             this.DisplayActualMusicOrVideoPlayerPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AlbumImgOrMovieImgPictureBox)).EndInit();
-            this.PlaylistMoviePanel.ResumeLayout(false);
-            this.PlaylistMoviePanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -66,11 +66,6 @@ namespace ProyectoEntrega3MatíasBustos
             //Se agrega a una lista de string la información de la canción clickeada
             
         }
-
-        private void SongMovieFormatShow_Load(object sender, EventArgs e)
-        {
-
-        }
     }
         
 }

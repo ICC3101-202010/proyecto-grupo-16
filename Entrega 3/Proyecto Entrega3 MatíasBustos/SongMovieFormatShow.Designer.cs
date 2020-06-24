@@ -75,7 +75,6 @@
             this.Controls.Add(this.AlbumImagePictureBox);
             this.Name = "SongMovieFormatShow";
             this.Size = new System.Drawing.Size(280, 89);
-            this.Load += new System.EventHandler(this.SongMovieFormatShow_Load);
             this.Click += new System.EventHandler(this.SongsFormat_Click);
             ((System.ComponentModel.ISupportInitialize)(this.AlbumImagePictureBox)).EndInit();
             this.ResumeLayout(false);
