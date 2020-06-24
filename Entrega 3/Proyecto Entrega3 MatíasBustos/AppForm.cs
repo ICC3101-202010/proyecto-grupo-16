@@ -33,8 +33,6 @@ namespace ProyectoEntrega3MatíasB_MatíasR
         Button AddMovieImage = new Button();
 
         UserController Usercontroller = new UserController();
-     
-
         MovieController Moviecontroller = new MovieController();
         SongsController Songscontroller = new SongsController();
 
