@@ -62,3 +62,9 @@ C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Models (Proyecto 2)\obj\
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Models (Proyecto 2)\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Models (Proyecto 2)\obj\Debug\Models (Proyecto 2).pdb

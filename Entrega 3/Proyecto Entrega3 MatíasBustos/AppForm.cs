@@ -2734,7 +2734,23 @@ namespace ProyectoEntrega3MatíasB_MatíasR
                         workerFormat.MouseMove += WorkerFormat_MouseMove; ;
                         workerFormat.MouseLeave += WorkerFormat_MouseLeave; ;
                         ShowWorkersFromSelectedMovieOrSongLayoutPanel.Controls.Add(workerFormat);
+
                     }
+                    double RankingS = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).RankingS;
+                    string SongCategory = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).SongGenre;
+                    string SongDuration = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).DurationS.ToString();
+                    string SizeSongFile = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).SongSize.ToString();
+                    string typefile = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).TypeFileS;
+                    string DonwloadALlowed = "True";
+                    string Reprodutions = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).ReproductionsS.ToString();
+                    ShowRankingFromClickedSongOrMovielbl.Text = "Ranking: " + RankingS;
+                    CategoryMovieOrMovieShowMoreInfolbl.Text = "Categoria: " + SongCategory;
+                    SongOrMovieDurationInMoreInfolbl.Text = "Duración: " + SongDuration;
+                    TypeFileSongOrMovieLastClickedMoreInfolbl.Text = "Tipo de archivo: " + typefile;
+                    SizeOfLastSongOrMovieSelectedMoreInfolbl.Text = "Tamaño (Mb): " + SizeSongFile;
+                    DownloadAllowedlbl.Text = "Posibilidad Descarga: " + DonwloadALlowed;
+                    ReproductionMovieOrSongLastClickedlbl.Text = "Reproducciones: " + Reprodutions;
+
                 }
                 //Movie
                 else
@@ -2759,6 +2775,20 @@ namespace ProyectoEntrega3MatíasB_MatíasR
                         
                         ShowWorkersFromSelectedMovieOrSongLayoutPanel.Controls.Add(workerFormat);
                     }
+                    double RankingM = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).RankingM;
+                    string MovieCategory = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).Category;
+                    string MovieDuration = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).DurationM.ToString();
+                    string SizeMovieFile = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).MovieSize.ToString();
+                    string typefile = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).TypeFileM;
+                    string DonwloadALlowed = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).Candownload1.ToString();
+                    string Reprodutions = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).ReproductionsM.ToString();
+                    ShowRankingFromClickedSongOrMovielbl.Text = "Ranking: " + RankingM;
+                    CategoryMovieOrMovieShowMoreInfolbl.Text = "Categoria: " + MovieCategory;
+                    SongOrMovieDurationInMoreInfolbl.Text = "Duración: " + MovieDuration;
+                    TypeFileSongOrMovieLastClickedMoreInfolbl.Text = "Tipo de archivo: " + typefile;
+                    SizeOfLastSongOrMovieSelectedMoreInfolbl.Text = "Tamaño (Mb): " + SizeMovieFile;
+                    DownloadAllowedlbl.Text = "Posibilidad Descarga: " + DonwloadALlowed;
+                    ReproductionMovieOrSongLastClickedlbl.Text = "Reproducciones: " + Reprodutions;
                 }
                 ShowInfoWorkerFromSongOrMovieSelectedPanel.Visible = true;
                 PlaylistMoviePanel.Visible = true;
@@ -2783,6 +2813,68 @@ namespace ProyectoEntrega3MatíasB_MatíasR
             (sender as WorkerFormatUserController).BackColor = Color.FromArgb(105, 105, 105);
         }
 
+        private void EvaluateSongOrMovieFromLastFormatClickedButton_Click(object sender, EventArgs e)
+        {
+            if(CheckTextBoxEmpty(EvaluateSongOrMovieTextBox))
+            {
+                MessageBox.Show("Ingrese un numero para evaluar");
+            }
+            else
+            {
+                try
+                {
+                    double value = double.Parse(EvaluateSongOrMovieTextBox.Text);
+                    
+                    //Buscar la canción o pelicula que fue evaluada
+                    if (LastFormatClicked.Identificador == "Song")
+                    {
+                        double RankingS = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).RankingS;
+                        string SongCategory = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).SongGenre;
+                        string SongDuration = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).DurationS.ToString();
+                        string SizeSongFile = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).SongSize.ToString();
+                        string typefile = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).TypeFileS;
+                        string DonwloadALlowed = "True";
+                        string Reprodutions = Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).ReproductionsS.ToString();
+                        Songscontroller.ReturnSongBySongNameAndBandName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).RankingS = (RankingS+value)/2;
+                        Songscontroller.SaveSongs();
+                        Songscontroller.LoadSongs();
+                        ShowRankingFromClickedSongOrMovielbl.Text = "Ranking: " + RankingS;
+                        CategoryMovieOrMovieShowMoreInfolbl.Text = "Categoria: " + SongCategory;
+                        SongOrMovieDurationInMoreInfolbl.Text = "Duración: " + SongDuration;
+                        TypeFileSongOrMovieLastClickedMoreInfolbl.Text = "Tipo de archivo: " + typefile;
+                        SizeOfLastSongOrMovieSelectedMoreInfolbl.Text = "Tamaño (Mb): " + SizeSongFile;
+                        DownloadAllowedlbl.Text = "Posibilidad Descarga: " + DonwloadALlowed;
+                        ReproductionMovieOrSongLastClickedlbl.Text = "Reproducciones: " + Reprodutions;
+                        MessageBox.Show("Canción evaluada con exito");
+                    }
+                    else
+                    {
+                        double RankingM = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).RankingM;
+                        string MovieCategory = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).Category;
+                        string MovieDuration = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).DurationM.ToString();
+                        string SizeMovieFile = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).MovieSize.ToString();
+                        string typefile = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).TypeFileM;
+                        string DonwloadALlowed = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).Candownload1.ToString();
+                        string Reprodutions = Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).ReproductionsM.ToString();
+                        Moviecontroller.ReturnMovieByTitleNameAndStudioName(LastFormatClicked.Titulo, LastFormatClicked.NombreBanda).RankingM = (RankingM + value) / 2;
+                        Moviecontroller.SaveMovies();
+                        Moviecontroller.LoadMovies();
+                        MessageBox.Show("Pelicula evaluada con exito");
+                        ShowRankingFromClickedSongOrMovielbl.Text = "Ranking: " + RankingM;
+                        CategoryMovieOrMovieShowMoreInfolbl.Text = "Categoria: " + MovieCategory;
+                        SongOrMovieDurationInMoreInfolbl.Text = "Duración: " + MovieDuration;
+                        TypeFileSongOrMovieLastClickedMoreInfolbl.Text = "Tipo de archivo: " + typefile;
+                        SizeOfLastSongOrMovieSelectedMoreInfolbl.Text = "Tamaño (Mb): " + SizeMovieFile;
+                        DownloadAllowedlbl.Text = "Posibilidad Descarga: " + DonwloadALlowed;
+                        ReproductionMovieOrSongLastClickedlbl.Text = "Reproducciones: " + Reprodutions;
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Ingrese un numero correcto");
+                }
+            }
+        }
     }
     
 

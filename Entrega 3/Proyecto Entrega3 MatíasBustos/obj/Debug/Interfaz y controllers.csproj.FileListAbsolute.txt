@@ -290,3 +290,24 @@ C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 Matía
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\bin\Debug\ProyectoEntrega3MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).dll
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\bin\Debug\Models (Proyecto 2).pdb
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\bin\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.PlaylistFormatUserController.resources
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.SongMovieFormatShow.resources
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.WorkerFormatUserController.resources
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\LastRecover\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.pdb

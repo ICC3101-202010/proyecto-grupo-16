@@ -57,5 +57,10 @@ namespace ProyectoEntrega3MatíasBustos
         }
 
         #endregion
+
+        private void PlaylistFormatUserController_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

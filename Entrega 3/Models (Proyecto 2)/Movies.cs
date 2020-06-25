@@ -11,7 +11,6 @@ namespace Models__Proyecto_2_
     {
         private string title;
         private string category;
-
         private double rankingM;
         private string DatePublish;
         private string description;
@@ -48,6 +47,8 @@ namespace Models__Proyecto_2_
         public string DatePublish1 { get => DatePublish; set => DatePublish = value; }
         public string FilePath1 { get => FilePath; set => FilePath = value; }
         public string MovieImgFilePath1 { get => MovieImgFilePath; set => MovieImgFilePath = value; }
+        public bool Candownload1 { get => Candownload; set => Candownload = value; }
+        public int Downloads1 { get => Downloads; set => Downloads = value; }
 
         public Movies(string Title, string Category, TimeSpan DurationM, string DatePublish, string Description, string Studio, string TypeFileM, double MovieSize,  List<WorkerMovie> Cast, int LikesM, int ReproductionsM,string FilePath, double rankingM)
         {

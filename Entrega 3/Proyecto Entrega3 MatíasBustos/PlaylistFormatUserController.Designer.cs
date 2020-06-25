@@ -75,6 +75,7 @@
             this.Controls.Add(this.PlaylistSongNamelbl);
             this.Name = "PlaylistFormatUserController";
             this.Size = new System.Drawing.Size(273, 99);
+            this.Load += new System.EventHandler(this.PlaylistFormatUserController_Load);
             ((System.ComponentModel.ISupportInitialize)(this.OwnerUserPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

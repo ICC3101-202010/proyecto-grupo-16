@@ -63,6 +63,22 @@
             this.PlaylistLastFormatSongOrMovieClickedInfo = new System.Windows.Forms.Panel();
             this.PlaylistMoviePanel = new System.Windows.Forms.Panel();
             this.ShowInfoWorkerFromSongOrMovieSelectedPanel = new System.Windows.Forms.Panel();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.ReproductionMovieOrSongLastClickedlbl = new System.Windows.Forms.Label();
+            this.DownloadAllowedlbl = new System.Windows.Forms.Label();
+            this.ShowRankingFromClickedSongOrMovielbl = new System.Windows.Forms.Label();
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl = new System.Windows.Forms.Label();
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl = new System.Windows.Forms.Label();
+            this.SongOrMovieDurationInMoreInfolbl = new System.Windows.Forms.Label();
+            this.CategoryMovieOrMovieShowMoreInfolbl = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.EvaluateSongOrMovieTextBox = new System.Windows.Forms.TextBox();
+            this.EvaluateSongOrMovieFromLastFormatClickedButton = new System.Windows.Forms.Button();
+            this.label60 = new System.Windows.Forms.Label();
             this.ShowMoreInfoBandOrStudioNamelbl = new System.Windows.Forms.Label();
             this.ShowWorkersFromSelectedMovieOrSongLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.ShowMoreInfoNameSongOrMovielbl = new System.Windows.Forms.Label();
@@ -682,6 +698,22 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ShowInfoWorkerFromSongOrMovieSelectedPanel.AutoScroll = true;
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.label72);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.label73);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.label71);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.label70);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.ReproductionMovieOrSongLastClickedlbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.DownloadAllowedlbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.ShowRankingFromClickedSongOrMovielbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.TypeFileSongOrMovieLastClickedMoreInfolbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.SizeOfLastSongOrMovieSelectedMoreInfolbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.SongOrMovieDurationInMoreInfolbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.CategoryMovieOrMovieShowMoreInfolbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.label62);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.label61);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.EvaluateSongOrMovieTextBox);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.EvaluateSongOrMovieFromLastFormatClickedButton);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.label60);
             this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.ShowMoreInfoBandOrStudioNamelbl);
             this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.ShowWorkersFromSelectedMovieOrSongLayoutPanel);
             this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.ShowMoreInfoNameSongOrMovielbl);
@@ -692,12 +724,181 @@
             this.ShowInfoWorkerFromSongOrMovieSelectedPanel.TabIndex = 32;
             this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Visible = false;
             // 
+            // label72
+            // 
+            this.label72.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label72.ForeColor = System.Drawing.Color.White;
+            this.label72.Location = new System.Drawing.Point(412, 137);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(300, 1);
+            this.label72.TabIndex = 48;
+            this.label72.Text = "label72";
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.ForeColor = System.Drawing.Color.White;
+            this.label73.Location = new System.Drawing.Point(408, 114);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(64, 19);
+            this.label73.TabIndex = 47;
+            this.label73.Text = "Evaluar:";
+            // 
+            // label71
+            // 
+            this.label71.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label71.ForeColor = System.Drawing.Color.White;
+            this.label71.Location = new System.Drawing.Point(33, 137);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(300, 1);
+            this.label71.TabIndex = 46;
+            this.label71.Text = "label71";
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.ForeColor = System.Drawing.Color.White;
+            this.label70.Location = new System.Drawing.Point(29, 114);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(54, 19);
+            this.label70.TabIndex = 45;
+            this.label70.Text = "Datos:";
+            // 
+            // ReproductionMovieOrSongLastClickedlbl
+            // 
+            this.ReproductionMovieOrSongLastClickedlbl.AutoSize = true;
+            this.ReproductionMovieOrSongLastClickedlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReproductionMovieOrSongLastClickedlbl.ForeColor = System.Drawing.Color.White;
+            this.ReproductionMovieOrSongLastClickedlbl.Location = new System.Drawing.Point(25, 386);
+            this.ReproductionMovieOrSongLastClickedlbl.Name = "ReproductionMovieOrSongLastClickedlbl";
+            this.ReproductionMovieOrSongLastClickedlbl.Size = new System.Drawing.Size(121, 18);
+            this.ReproductionMovieOrSongLastClickedlbl.TabIndex = 44;
+            this.ReproductionMovieOrSongLastClickedlbl.Text = "Reproducciones:";
+            // 
+            // DownloadAllowedlbl
+            // 
+            this.DownloadAllowedlbl.AutoSize = true;
+            this.DownloadAllowedlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DownloadAllowedlbl.ForeColor = System.Drawing.Color.White;
+            this.DownloadAllowedlbl.Location = new System.Drawing.Point(25, 352);
+            this.DownloadAllowedlbl.Name = "DownloadAllowedlbl";
+            this.DownloadAllowedlbl.Size = new System.Drawing.Size(151, 18);
+            this.DownloadAllowedlbl.TabIndex = 43;
+            this.DownloadAllowedlbl.Text = "Posibilidad Descarga:";
+            // 
+            // ShowRankingFromClickedSongOrMovielbl
+            // 
+            this.ShowRankingFromClickedSongOrMovielbl.AutoSize = true;
+            this.ShowRankingFromClickedSongOrMovielbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowRankingFromClickedSongOrMovielbl.ForeColor = System.Drawing.Color.White;
+            this.ShowRankingFromClickedSongOrMovielbl.Location = new System.Drawing.Point(27, 312);
+            this.ShowRankingFromClickedSongOrMovielbl.Name = "ShowRankingFromClickedSongOrMovielbl";
+            this.ShowRankingFromClickedSongOrMovielbl.Size = new System.Drawing.Size(66, 18);
+            this.ShowRankingFromClickedSongOrMovielbl.TabIndex = 42;
+            this.ShowRankingFromClickedSongOrMovielbl.Text = "Ranking:";
+            // 
+            // TypeFileSongOrMovieLastClickedMoreInfolbl
+            // 
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl.AutoSize = true;
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl.ForeColor = System.Drawing.Color.White;
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl.Location = new System.Drawing.Point(25, 238);
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl.Name = "TypeFileSongOrMovieLastClickedMoreInfolbl";
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl.Size = new System.Drawing.Size(113, 18);
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl.TabIndex = 41;
+            this.TypeFileSongOrMovieLastClickedMoreInfolbl.Text = "Tipo de archivo:";
+            // 
+            // SizeOfLastSongOrMovieSelectedMoreInfolbl
+            // 
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl.AutoSize = true;
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl.ForeColor = System.Drawing.Color.White;
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl.Location = new System.Drawing.Point(25, 277);
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl.Name = "SizeOfLastSongOrMovieSelectedMoreInfolbl";
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl.Size = new System.Drawing.Size(102, 18);
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl.TabIndex = 40;
+            this.SizeOfLastSongOrMovieSelectedMoreInfolbl.Text = "Tamaño (Mb):";
+            // 
+            // SongOrMovieDurationInMoreInfolbl
+            // 
+            this.SongOrMovieDurationInMoreInfolbl.AutoSize = true;
+            this.SongOrMovieDurationInMoreInfolbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SongOrMovieDurationInMoreInfolbl.ForeColor = System.Drawing.Color.White;
+            this.SongOrMovieDurationInMoreInfolbl.Location = new System.Drawing.Point(25, 201);
+            this.SongOrMovieDurationInMoreInfolbl.Name = "SongOrMovieDurationInMoreInfolbl";
+            this.SongOrMovieDurationInMoreInfolbl.Size = new System.Drawing.Size(72, 18);
+            this.SongOrMovieDurationInMoreInfolbl.TabIndex = 39;
+            this.SongOrMovieDurationInMoreInfolbl.Text = "Duración:";
+            // 
+            // CategoryMovieOrMovieShowMoreInfolbl
+            // 
+            this.CategoryMovieOrMovieShowMoreInfolbl.AutoSize = true;
+            this.CategoryMovieOrMovieShowMoreInfolbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CategoryMovieOrMovieShowMoreInfolbl.ForeColor = System.Drawing.Color.White;
+            this.CategoryMovieOrMovieShowMoreInfolbl.Location = new System.Drawing.Point(27, 163);
+            this.CategoryMovieOrMovieShowMoreInfolbl.Name = "CategoryMovieOrMovieShowMoreInfolbl";
+            this.CategoryMovieOrMovieShowMoreInfolbl.Size = new System.Drawing.Size(76, 18);
+            this.CategoryMovieOrMovieShowMoreInfolbl.TabIndex = 38;
+            this.CategoryMovieOrMovieShowMoreInfolbl.Text = "Categoria:";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.White;
+            this.label62.Location = new System.Drawing.Point(738, 77);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(145, 25);
+            this.label62.TabIndex = 37;
+            this.label62.Text = "Trabajadores:";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
+            this.label61.Location = new System.Drawing.Point(409, 201);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(142, 13);
+            this.label61.TabIndex = 36;
+            this.label61.Text = "(Ingrese un numero del 1-10)";
+            // 
+            // EvaluateSongOrMovieTextBox
+            // 
+            this.EvaluateSongOrMovieTextBox.Location = new System.Drawing.Point(559, 167);
+            this.EvaluateSongOrMovieTextBox.Name = "EvaluateSongOrMovieTextBox";
+            this.EvaluateSongOrMovieTextBox.Size = new System.Drawing.Size(100, 20);
+            this.EvaluateSongOrMovieTextBox.TabIndex = 35;
+            // 
+            // EvaluateSongOrMovieFromLastFormatClickedButton
+            // 
+            this.EvaluateSongOrMovieFromLastFormatClickedButton.Location = new System.Drawing.Point(560, 196);
+            this.EvaluateSongOrMovieFromLastFormatClickedButton.Name = "EvaluateSongOrMovieFromLastFormatClickedButton";
+            this.EvaluateSongOrMovieFromLastFormatClickedButton.Size = new System.Drawing.Size(75, 23);
+            this.EvaluateSongOrMovieFromLastFormatClickedButton.TabIndex = 34;
+            this.EvaluateSongOrMovieFromLastFormatClickedButton.Text = "Evaluar";
+            this.EvaluateSongOrMovieFromLastFormatClickedButton.UseVisualStyleBackColor = true;
+            this.EvaluateSongOrMovieFromLastFormatClickedButton.Click += new System.EventHandler(this.EvaluateSongOrMovieFromLastFormatClickedButton_Click);
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.White;
+            this.label60.Location = new System.Drawing.Point(412, 168);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(67, 18);
+            this.label60.TabIndex = 33;
+            this.label60.Text = "Valorar:";
+            // 
             // ShowMoreInfoBandOrStudioNamelbl
             // 
             this.ShowMoreInfoBandOrStudioNamelbl.AutoSize = true;
             this.ShowMoreInfoBandOrStudioNamelbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ShowMoreInfoBandOrStudioNamelbl.ForeColor = System.Drawing.Color.White;
-            this.ShowMoreInfoBandOrStudioNamelbl.Location = new System.Drawing.Point(43, 63);
+            this.ShowMoreInfoBandOrStudioNamelbl.Location = new System.Drawing.Point(25, 63);
             this.ShowMoreInfoBandOrStudioNamelbl.Name = "ShowMoreInfoBandOrStudioNamelbl";
             this.ShowMoreInfoBandOrStudioNamelbl.Size = new System.Drawing.Size(141, 25);
             this.ShowMoreInfoBandOrStudioNamelbl.TabIndex = 32;
@@ -706,9 +907,9 @@
             // ShowWorkersFromSelectedMovieOrSongLayoutPanel
             // 
             this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.AutoScroll = true;
-            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.Location = new System.Drawing.Point(47, 123);
+            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.Location = new System.Drawing.Point(743, 119);
             this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.Name = "ShowWorkersFromSelectedMovieOrSongLayoutPanel";
-            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.Size = new System.Drawing.Size(400, 451);
+            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.Size = new System.Drawing.Size(400, 439);
             this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.TabIndex = 2;
             // 
             // ShowMoreInfoNameSongOrMovielbl
@@ -716,7 +917,7 @@
             this.ShowMoreInfoNameSongOrMovielbl.AutoSize = true;
             this.ShowMoreInfoNameSongOrMovielbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ShowMoreInfoNameSongOrMovielbl.ForeColor = System.Drawing.Color.White;
-            this.ShowMoreInfoNameSongOrMovielbl.Location = new System.Drawing.Point(43, 25);
+            this.ShowMoreInfoNameSongOrMovielbl.Location = new System.Drawing.Point(25, 25);
             this.ShowMoreInfoNameSongOrMovielbl.Name = "ShowMoreInfoNameSongOrMovielbl";
             this.ShowMoreInfoNameSongOrMovielbl.Size = new System.Drawing.Size(99, 25);
             this.ShowMoreInfoNameSongOrMovielbl.TabIndex = 0;
@@ -2230,6 +2431,22 @@
         private System.Windows.Forms.FlowLayoutPanel ShowWorkersFromSelectedMovieOrSongLayoutPanel;
         private System.Windows.Forms.Label ShowMoreInfoNameSongOrMovielbl;
         private System.Windows.Forms.Label ShowMoreInfoBandOrStudioNamelbl;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.TextBox EvaluateSongOrMovieTextBox;
+        private System.Windows.Forms.Button EvaluateSongOrMovieFromLastFormatClickedButton;
+        private System.Windows.Forms.Label CategoryMovieOrMovieShowMoreInfolbl;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label TypeFileSongOrMovieLastClickedMoreInfolbl;
+        private System.Windows.Forms.Label SizeOfLastSongOrMovieSelectedMoreInfolbl;
+        private System.Windows.Forms.Label SongOrMovieDurationInMoreInfolbl;
+        private System.Windows.Forms.Label ShowRankingFromClickedSongOrMovielbl;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.Label ReproductionMovieOrSongLastClickedlbl;
+        private System.Windows.Forms.Label DownloadAllowedlbl;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Label label73;
     }
 }
 
