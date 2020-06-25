@@ -398,5 +398,15 @@ namespace ProyectoEntrega3MatíasB_MatíasR.Controllers
             NewMovie.MovieImgFilePath1 = ImageMovie;
             DataBaseMovies.Add(NewMovie);
         }
+
+        public List<List<string>> ReturnWorkersMFromSelectedMovie(string MovieTitle, string Studio)
+        {
+            List<List<string>> InfoWM = new List<List<string>>();
+            foreach (WorkerMovie wm in ReturnMovieByTitleNameAndStudioName(MovieTitle, Studio).Cast)
+            {
+                InfoWM.Add(new List<string> { wm.Name, wm.WorkerMovieRol1, wm.Age1.ToString(), wm.Gender1, wm.RankingWM1.ToString() });
+            }
+            return InfoWM;
+        }
     }
 }

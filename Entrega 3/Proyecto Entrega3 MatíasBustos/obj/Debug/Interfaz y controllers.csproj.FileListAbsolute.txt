@@ -284,6 +284,7 @@ C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 Matía
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.PlaylistFormatUserController.resources
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.SongMovieFormatShow.resources
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\ProyectoEntrega3MatíasBustos.WorkerFormatUserController.resources
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.GenerateResource.cache
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CoreCompileInputs.cache
 C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Debug\Interfaz y controllers.csproj.CopyComplete

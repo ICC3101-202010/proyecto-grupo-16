@@ -92,6 +92,12 @@
     <Compile Include="SongMovieFormatShow.Designer.cs">
       <DependentUpon>SongMovieFormatShow.cs</DependentUpon>
     </Compile>
+    <Compile Include="WorkerFormatUserController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WorkerFormatUserController.Designer.cs">
+      <DependentUpon>WorkerFormatUserController.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AppForm.resx">
       <DependentUpon>AppForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +116,9 @@
     </Compile>
     <EmbeddedResource Include="SongMovieFormatShow.resx">
       <DependentUpon>SongMovieFormatShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerFormatUserController.resx">
+      <DependentUpon>WorkerFormatUserController.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

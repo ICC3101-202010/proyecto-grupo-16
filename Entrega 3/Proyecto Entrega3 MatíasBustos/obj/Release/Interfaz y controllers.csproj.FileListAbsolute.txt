@@ -97,3 +97,16 @@ C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Releas
 C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.exe
 C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.pdb
 C:\Users\SEBASTIÁN\Desktop\AppConWMP\Proyecto Entrega3 MatíasBustos\obj\Release\Rebuild.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\Interop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\AxInterop.WMPLib.dll
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csproj.ResolveComReference.cache
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasB_MatíasR.AppForm.resources
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.PlaylistFormatUserController.resources
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.SongMovieFormatShow.resources
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.WorkerFormatUserController.resources
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\Interfaz y controllers.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\proyecto-grupo-16\Entrega 3\Proyecto Entrega3 MatíasBustos\obj\Release\ProyectoEntrega3MatíasBustos.pdb

@@ -253,7 +253,9 @@ namespace ProyectoEntrega3MatíasB_MatíasR
                         SeeSongOrMovieInMainPanelButton.BackgroundImage = Image.FromFile(GetNewFilePath(DebugPath, "UpArrowIcon.png"));
                         AlbumImgOrMovieImgPictureBox.BackgroundImage = Image.FromFile(GetNewFilePath(DebugPath, "SampleAlbumDogo.jpg"));
                         HideAddSongOrMoviePanelButton.BackgroundImage = Image.FromFile(GetNewFilePath(DebugPath, "DownArrowIcon.png"));
+                        ShowInfoSongOrMovieBotton.BackgroundImage = Image.FromFile(GetNewFilePath(DebugPath, "UpArrowIcon.png"));
                         FlatButtonAndBorderToArgbColorAndStretchImag(HideAddSongOrMoviePanelButton, 0, 0, 0);
+                        FlatButtonAndBorderToArgbColorAndStretchImag(ShowInfoSongOrMovieBotton, 40, 40, 40);
                         //Icono de favorito aun no agregado a fav
                         FavButton.BackgroundImage = Image.FromFile(GetNewFilePath(DebugPath, "NotYetAddedFavIcon.png"));
                         //NextSongButton.BackgroundImage = Image.FromFile(GetNewFilePath(DebugPath, "NextSongButton.png"));
@@ -2699,6 +2701,88 @@ namespace ProyectoEntrega3MatíasB_MatíasR
 
 
         }
+        //Muestra los trabajadores que participan en esa cancion o pelicula 
+        private void ShowInfoSongOrMovieBotton_Click(object sender, EventArgs e)
+        {
+            if (axWindowsMediaPlayer1.status.Length == 0)
+            {
+                
+            }
+            else
+            {
+                ShowWorkersFromSelectedMovieOrSongLayoutPanel.Controls.Clear();
+                ShowMoreInfoNameSongOrMovielbl.Text = "";
+                ShowMoreInfoBandOrStudioNamelbl.Text = "";
+                //Mostrar panel que muestra la info de la cancion o pelicula clickeada
+                string Identificador = LastFormatClicked.Identificador;
+
+                if(Identificador == "Song")
+                {
+                    ShowMoreInfoNameSongOrMovielbl.Text = "Nombre: "+ TitleSongOrMovieLabel.Text;
+                    ShowMoreInfoBandOrStudioNamelbl.Text = "Banda: " + BandOrStudioNameLabel.Text;
+                    foreach(List<string> InfoS in Songscontroller.ReturnWorkersSFromSelectedSong(TitleSongOrMovieLabel.Text, BandOrStudioNameLabel.Text))
+                    {
+                        WorkerFormatUserController workerFormat = new WorkerFormatUserController();
+                        workerFormat.NombreW = InfoS[0];
+                        workerFormat.RolW = InfoS[1];
+                        workerFormat.EdadW = InfoS[2];
+                        workerFormat.Sexo = InfoS[3];
+                        workerFormat.RankingW = InfoS[4];
+                        workerFormat.Titulo = TitleSongOrMovieLabel.Text;
+                        workerFormat.BandaOEstudio = BandOrStudioNameLabel.Text;
+                        workerFormat.Identificador = "Song";
+                        workerFormat.MouseMove += WorkerFormat_MouseMove; ;
+                        workerFormat.MouseLeave += WorkerFormat_MouseLeave; ;
+                        ShowWorkersFromSelectedMovieOrSongLayoutPanel.Controls.Add(workerFormat);
+                    }
+                }
+                //Movie
+                else
+                {
+                    ShowMoreInfoNameSongOrMovielbl.Text = "Nombre: " + TitleSongOrMovieLabel.Text;
+                    ShowMoreInfoBandOrStudioNamelbl.Text = "Estudio: " + BandOrStudioNameLabel.Text;
+                    ShowMoreInfoNameSongOrMovielbl.Text = "Nombre: " + TitleSongOrMovieLabel.Text;
+                    ShowMoreInfoBandOrStudioNamelbl.Text = "Banda: " + BandOrStudioNameLabel.Text;
+                    foreach (List<string> InfoS in Moviecontroller.ReturnWorkersMFromSelectedMovie(TitleSongOrMovieLabel.Text, BandOrStudioNameLabel.Text))
+                    {
+                        WorkerFormatUserController workerFormat = new WorkerFormatUserController();
+                        workerFormat.NombreW = InfoS[0];
+                        workerFormat.RolW = InfoS[1];
+                        workerFormat.EdadW = InfoS[2];
+                        workerFormat.Sexo = InfoS[3];
+                        workerFormat.RankingW = InfoS[4];
+                        workerFormat.Identificador = "Movie";
+                        workerFormat.Titulo = TitleSongOrMovieLabel.Text;
+                        workerFormat.BandaOEstudio = BandOrStudioNameLabel.Text;
+                        workerFormat.MouseMove += WorkerFormat_MouseMove;
+                        workerFormat.MouseLeave += WorkerFormat_MouseLeave;
+                        
+                        ShowWorkersFromSelectedMovieOrSongLayoutPanel.Controls.Add(workerFormat);
+                    }
+                }
+                ShowInfoWorkerFromSongOrMovieSelectedPanel.Visible = true;
+                PlaylistMoviePanel.Visible = true;
+                PlaylistLastFormatSongOrMovieClickedInfo.Visible = true;
+                PlaylistSongPanel.Visible = true;
+                FavMoviesUsrPanel.Visible = true;
+                FavSongsUsrPanel.Visible = true;
+                SearchResultPanel.Visible = true;
+                ConfigurationPanel.Visible = true;
+
+
+            }
+        }
+
+        private void WorkerFormat_MouseLeave(object sender, EventArgs e)
+        {
+            (sender as WorkerFormatUserController).BackColor = Color.FromArgb(64, 64, 64);
+        }
+
+        private void WorkerFormat_MouseMove(object sender, MouseEventArgs e)
+        {
+            (sender as WorkerFormatUserController).BackColor = Color.FromArgb(105, 105, 105);
+        }
+
     }
     
 

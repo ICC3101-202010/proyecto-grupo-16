@@ -426,7 +426,16 @@ namespace ProyectoEntrega3MatíasB_MatíasR.Controllers
             Songs EmptySong = new Songs();
             return EmptySong;
         }
-        
+        //Devuelve la informacion de los trabajadores en una list of list string , en la posicion 0 esta el nombre, en 1 rol , 2 edad, 3 genero,4 rnking
+        public List<List<string>> ReturnWorkersSFromSelectedSong(string SongName,string BandName)
+        {
+            List<List<string>> InfoWS = new List<List<string>>();
+            foreach(WorkerSong ws in ReturnSongBySongNameAndBandName(SongName, BandName).WorkersSong1)
+            {
+                InfoWS.Add(new List<string> { ws.Name,ws.Rol,ws.Age.ToString(),ws.Gender1,ws.RankingWorkerS.ToString()});
+            }
+            return InfoWS;
+        }
   
 
     }

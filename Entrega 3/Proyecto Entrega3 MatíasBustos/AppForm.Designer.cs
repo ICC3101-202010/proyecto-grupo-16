@@ -62,6 +62,10 @@
             this.PlaylistSongPanel = new System.Windows.Forms.Panel();
             this.PlaylistLastFormatSongOrMovieClickedInfo = new System.Windows.Forms.Panel();
             this.PlaylistMoviePanel = new System.Windows.Forms.Panel();
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel = new System.Windows.Forms.Panel();
+            this.ShowMoreInfoBandOrStudioNamelbl = new System.Windows.Forms.Label();
+            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.ShowMoreInfoNameSongOrMovielbl = new System.Windows.Forms.Label();
             this.AddNewPlaylistMConfirmationButton = new System.Windows.Forms.Button();
             this.SelectFiletypeNewPlyMComboBox = new System.Windows.Forms.ComboBox();
             this.NameNewPlaylistMTextBox = new System.Windows.Forms.TextBox();
@@ -118,6 +122,8 @@
             this.LibraryLabel = new System.Windows.Forms.Label();
             this.ConfigurationMenuUserLabel = new System.Windows.Forms.Label();
             this.DisplayActualMusicOrVideoPlayerPanel = new System.Windows.Forms.Panel();
+            this.label59 = new System.Windows.Forms.Label();
+            this.ShowInfoSongOrMovieBotton = new System.Windows.Forms.Button();
             this.AddSongOrMovieToPlaylist = new System.Windows.Forms.Button();
             this.FavButton = new System.Windows.Forms.Button();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
@@ -205,6 +211,7 @@
             this.PlaylistSongPanel.SuspendLayout();
             this.PlaylistLastFormatSongOrMovieClickedInfo.SuspendLayout();
             this.PlaylistMoviePanel.SuspendLayout();
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).BeginInit();
             this.DiplayOptionsUserPanel.SuspendLayout();
             this.OnAddSongOrMovieToPlaylistPanel.SuspendLayout();
@@ -652,6 +659,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PlaylistMoviePanel.AutoScroll = true;
+            this.PlaylistMoviePanel.Controls.Add(this.ShowInfoWorkerFromSongOrMovieSelectedPanel);
             this.PlaylistMoviePanel.Controls.Add(this.AddNewPlaylistMConfirmationButton);
             this.PlaylistMoviePanel.Controls.Add(this.SelectFiletypeNewPlyMComboBox);
             this.PlaylistMoviePanel.Controls.Add(this.NameNewPlaylistMTextBox);
@@ -667,6 +675,52 @@
             this.PlaylistMoviePanel.Size = new System.Drawing.Size(1174, 594);
             this.PlaylistMoviePanel.TabIndex = 27;
             this.PlaylistMoviePanel.Visible = false;
+            // 
+            // ShowInfoWorkerFromSongOrMovieSelectedPanel
+            // 
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.AutoScroll = true;
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.ShowMoreInfoBandOrStudioNamelbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.ShowWorkersFromSelectedMovieOrSongLayoutPanel);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Controls.Add(this.ShowMoreInfoNameSongOrMovielbl);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Location = new System.Drawing.Point(0, 0);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Name = "ShowInfoWorkerFromSongOrMovieSelectedPanel";
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Size = new System.Drawing.Size(1166, 594);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.TabIndex = 32;
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.Visible = false;
+            // 
+            // ShowMoreInfoBandOrStudioNamelbl
+            // 
+            this.ShowMoreInfoBandOrStudioNamelbl.AutoSize = true;
+            this.ShowMoreInfoBandOrStudioNamelbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowMoreInfoBandOrStudioNamelbl.ForeColor = System.Drawing.Color.White;
+            this.ShowMoreInfoBandOrStudioNamelbl.Location = new System.Drawing.Point(43, 63);
+            this.ShowMoreInfoBandOrStudioNamelbl.Name = "ShowMoreInfoBandOrStudioNamelbl";
+            this.ShowMoreInfoBandOrStudioNamelbl.Size = new System.Drawing.Size(141, 25);
+            this.ShowMoreInfoBandOrStudioNamelbl.TabIndex = 32;
+            this.ShowMoreInfoBandOrStudioNamelbl.Text = "Band/Studio: ";
+            // 
+            // ShowWorkersFromSelectedMovieOrSongLayoutPanel
+            // 
+            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.AutoScroll = true;
+            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.Location = new System.Drawing.Point(47, 123);
+            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.Name = "ShowWorkersFromSelectedMovieOrSongLayoutPanel";
+            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.Size = new System.Drawing.Size(400, 451);
+            this.ShowWorkersFromSelectedMovieOrSongLayoutPanel.TabIndex = 2;
+            // 
+            // ShowMoreInfoNameSongOrMovielbl
+            // 
+            this.ShowMoreInfoNameSongOrMovielbl.AutoSize = true;
+            this.ShowMoreInfoNameSongOrMovielbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowMoreInfoNameSongOrMovielbl.ForeColor = System.Drawing.Color.White;
+            this.ShowMoreInfoNameSongOrMovielbl.Location = new System.Drawing.Point(43, 25);
+            this.ShowMoreInfoNameSongOrMovielbl.Name = "ShowMoreInfoNameSongOrMovielbl";
+            this.ShowMoreInfoNameSongOrMovielbl.Size = new System.Drawing.Size(99, 25);
+            this.ShowMoreInfoNameSongOrMovielbl.TabIndex = 0;
+            this.ShowMoreInfoNameSongOrMovielbl.Text = "Nombre: ";
             // 
             // AddNewPlaylistMConfirmationButton
             // 
@@ -1246,6 +1300,8 @@
             // DisplayActualMusicOrVideoPlayerPanel
             // 
             this.DisplayActualMusicOrVideoPlayerPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.DisplayActualMusicOrVideoPlayerPanel.Controls.Add(this.label59);
+            this.DisplayActualMusicOrVideoPlayerPanel.Controls.Add(this.ShowInfoSongOrMovieBotton);
             this.DisplayActualMusicOrVideoPlayerPanel.Controls.Add(this.AddSongOrMovieToPlaylist);
             this.DisplayActualMusicOrVideoPlayerPanel.Controls.Add(this.FavButton);
             this.DisplayActualMusicOrVideoPlayerPanel.Controls.Add(this.axWindowsMediaPlayer1);
@@ -1257,6 +1313,26 @@
             this.DisplayActualMusicOrVideoPlayerPanel.Name = "DisplayActualMusicOrVideoPlayerPanel";
             this.DisplayActualMusicOrVideoPlayerPanel.Size = new System.Drawing.Size(1366, 75);
             this.DisplayActualMusicOrVideoPlayerPanel.TabIndex = 12;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.Color.White;
+            this.label59.Location = new System.Drawing.Point(1131, 33);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(161, 18);
+            this.label59.TabIndex = 23;
+            this.label59.Text = "Mostrar Información";
+            // 
+            // ShowInfoSongOrMovieBotton
+            // 
+            this.ShowInfoSongOrMovieBotton.Location = new System.Drawing.Point(1298, 11);
+            this.ShowInfoSongOrMovieBotton.Name = "ShowInfoSongOrMovieBotton";
+            this.ShowInfoSongOrMovieBotton.Size = new System.Drawing.Size(56, 54);
+            this.ShowInfoSongOrMovieBotton.TabIndex = 22;
+            this.ShowInfoSongOrMovieBotton.UseVisualStyleBackColor = true;
+            this.ShowInfoSongOrMovieBotton.Click += new System.EventHandler(this.ShowInfoSongOrMovieBotton_Click);
             // 
             // AddSongOrMovieToPlaylist
             // 
@@ -1964,6 +2040,8 @@
             this.PlaylistLastFormatSongOrMovieClickedInfo.PerformLayout();
             this.PlaylistMoviePanel.ResumeLayout(false);
             this.PlaylistMoviePanel.PerformLayout();
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.ResumeLayout(false);
+            this.ShowInfoWorkerFromSongOrMovieSelectedPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).EndInit();
             this.DiplayOptionsUserPanel.ResumeLayout(false);
             this.DiplayOptionsUserPanel.PerformLayout();
@@ -2146,6 +2224,12 @@
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.FlowLayoutPanel ShowPlaylistMUsrLayoutPanel;
         private System.Windows.Forms.Label PlaylistMlbl;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Button ShowInfoSongOrMovieBotton;
+        private System.Windows.Forms.Panel ShowInfoWorkerFromSongOrMovieSelectedPanel;
+        private System.Windows.Forms.FlowLayoutPanel ShowWorkersFromSelectedMovieOrSongLayoutPanel;
+        private System.Windows.Forms.Label ShowMoreInfoNameSongOrMovielbl;
+        private System.Windows.Forms.Label ShowMoreInfoBandOrStudioNamelbl;
     }
 }
 
